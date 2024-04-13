@@ -83,13 +83,13 @@ section.menu{
     gap: 32px;
 
 }
-h1{
-
+h1{    
+    font-size: 3.25rem;
+    font-weight: 700;
 }
 
 h2{
-    font-size: 3.25rem;
-    font-weight: 700;
+
 }
 
 h3{
@@ -193,26 +193,74 @@ section.academic{
     width: 100%;
     height: auto;
     background-color: #EAF2FD;
-    margin-top:2rem; 
     align-items: center;
     display: flex;
     flex-direction: column;
+
 
 }
 
 section .academic__courses{
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    flex-wrap: wrap;
+    justify-content:center;
     Width: 1136px;
+    padding: 0;
 
     border:blue solid 2px;
 }
 
+
+section .academic__courses__list{
+
+}
+
+section .academic__courses__item__img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:320px;
+    width: 320px;
+    background-color: #fff;
+}
+section .academic__courses__item__img img{
+    height: 130px;
+}
+
+
 /* experiência*/
 
-section.experience{
+.experience{
+    Width: 1136px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+    border:purple solid 2px;
+}
+
+.experience .experience__section__title{
+    text-align: center;
+}
+
+.experiencie__box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    Width: 1136px;
+    margin-top: 2rem;
+    padding: 0;
+
+    border:blue solid 2px;
+}
+
+.experience__img{
+    margin: 1rem;
+    width: 50%;
+    padding: 0 2rem;
 }
 
 /*Contato*/
