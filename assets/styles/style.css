@@ -16,6 +16,7 @@ body {
     font-family: 'Raleway';
     margin: 0;
     padding: 0;
+
     line-height: 1;
     background: #F5F5F5;
 
@@ -46,7 +47,7 @@ https://en.bem.info/methodology/quick-start/*/
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: .5rem;
+    gap:2rem;
     border: red solid 2px;
 }
 
@@ -89,6 +90,8 @@ h1{
 }
 
 h2{
+    font-size: 22px;
+    font-weight: 700;
 
 }
 
@@ -238,6 +241,7 @@ section .academic__courses__item__img img{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 1.5rem;
 
     border:purple solid 2px;
 }
@@ -249,30 +253,92 @@ section .academic__courses__item__img img{
 .experiencie__box{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     Width: 1136px;
-    margin-top: 2rem;
-    padding: 0;
+    padding: 0rem;
 
     border:blue solid 2px;
 }
 
 .experience__img{
+    display: block;
+    justify-content: center;
     margin: 1rem;
-    width: 50%;
+    width: 600px;
     padding: 0 2rem;
 }
 
+.experience__info{
+    width: 400px;
+    padding: 1rem;
+
+    border:green solid 2px;
+
+}
 /*Contato*/
 
 section.formcontato{
+    width: 100%;
+    height: auto;
+    background-color: #EAF2FD;
+    display: flex;
+    justify-content: center;
+}
+
+.formcontato__contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    Width: 1136px;
+    gap:1rem;
+
+    border:rebeccapurple solid 2px;
+}
+
+.formcontato--direita{
+    display: flex;
+    flex-direction: column;
+}
+
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    border:blue solid 2px;
+}
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    gap:.5rem;
+    padding: 1.5rem;
+    border:blue solid 2px;
 
 }
+.formcontato__input{
+    display: flex;
+    align-items: flex-start;
+    Width: 600px;
+    Height: 56px;
+    padding: 0;
+}
+
 
 /*footeer*/
 
-section.footer{
-   
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;  
+}
+
+footer .footer__rodape{
+    Width: 1136px;
+    height: 102px;
+    display: flex;
+    padding: 0;
+    gap: 0;
+    flex-direction: column;
+    align-items: center;
+    border:blue solid 2px;
 }
 
 /* Chegou a hora de se desafiar com a responsividade, 
