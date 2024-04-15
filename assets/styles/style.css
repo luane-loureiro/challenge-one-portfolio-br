@@ -321,6 +321,20 @@ section.formcontato{
     padding: 0;
 }
 
+button{
+    align-items: center;
+    width: 165px;
+    height:51px;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+    background-color: #2A7AE4;
+    color: #fff;
+    border: none;
+    margin: 2rem 1rem 0 0;
+
+}
+
 
 /*footeer*/
 
