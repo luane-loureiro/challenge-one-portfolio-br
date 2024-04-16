@@ -26,6 +26,8 @@ body {
 }
 ol, ul,li {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 a{
     text-decoration: none;
@@ -136,7 +138,6 @@ section.title{
 
 }
 /*Sessão About*/
-
 section.about{
     width: 100%;
     height: auto;
@@ -371,17 +372,127 @@ utilize como referência os breakpoints @media abaixo*/
 /*Tablet*/
 @media (min-width: 768px) {
 
+h1{
+    font-size: 22px;
+    height: 700;
+}
+
+h2{
+    font-size: 1rem;
+    height: 400;
+}
+h3{
+
+}
+p{
+
+}
 /* Menu */
+section.menu{
+    display: flex;
+    width: 704px;
+    border: red solid 3px;
+}
+.menu__list__item{ 
+    display: none; 
+    border: red solid 3px;
+}
+.mail{
+    display: flex;
+}
 
 /*title*/
+.title{
+    display: flex;
+    justify-content: center;
+}
+.title__div{
+    width: 704px;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    border: red solid 3px;
+}
+.title__profile{
+    width: 146px;
+    height: 146px;
+    padding: 0;
+}
+
+section div.about__container{
+    width: 704px;
+    height: auto;
+    padding: 0;
+    border: blue 3px solid;
+}
+
 
 /*Skills*/
+.skills, .hobbies{
+    width: 704px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+    border: red 3px solid;
+}
+.skills__line, .hobbies__line{
+    display: flex;
+    flex-wrap: wrap;
+    border: blue 3px solid;
+}
+
+.skills__box, .hobbies__box{
+    width: 224px;
+    height: 118px;
+}
 /*Hobbies*/
 
 /*Experiências acadêmicas*/
+.academic{
+    border: red 3px solid;
+}
+.academic__courses{
+    width: 704px;
+    height: auto;
+    border: blue 3px solid;
+}
 
+section .academic__courses__item__img{
+    width: 214px;
+    height: 118px; 
+    border: blue 3px solid;
+}
+section .academic__courses__item__img img{
+    width: 85px;
+}
+
+.text{
+    width: 214px;
+}
 /*Expeirência profissional*/
+section.experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 704px;
+
+    border: blue 3px solid;
+}
+
+section .experiencie__box{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    border: red 3px solid;
+}
+.experiencie__box img{
+    padding: 0rem;
+    margin: 0;
+}
 
 }
 
