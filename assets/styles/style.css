@@ -55,19 +55,6 @@ https://en.bem.info/methodology/quick-start/*/
     padding: .5rem;
 }
 
-/*Sessão Menu*/
-header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: .5rem;
-}
-
-header img{
-    height: 24px;
-}
-
-
 h1{    
     font-size: 3.25rem;
     font-weight: 700;
@@ -88,110 +75,8 @@ p{
     font-weight: 400;
 }
 
-
-/*Sessão Title*/
-section.menu{
-    height: auto;
-    width: 1136px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items:center;
-}
-
-.menu__list{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-between;
-    width:642px;
-    height: 19px;
-    gap: 32px;
-}
-
-section.title{
-    width: 1136px;
-    padding-top: 2rem;
-}
-
-.menu__title{
-    mix-blend-mode: multiply;
-    height: 6rem;
-}
-
-.title__profile{
-    height: 368px;
-}
-
-.title__div{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    gap:1rem;
-}
-
-.title__network{
-    display: flex;
-    flex-direction: row;
-    padding-left: 0;
-    gap: 2rem;
-
-}
 /*Sessão About*/
-section.about{
-    width: 100%;
-    height: auto;
-    background-color: var(--cor__media_1);
-    margin-top:2rem; 
-    align-items: center;
-    display: flex;
-    flex-direction: column;
 
-
-}
-section div.about__container{
-    width: 1136px;
-    padding: 1.5rem;
-}
-
-/*Sessão Skills e Hobbies*/
-.skills__img img, .hobbies__img img{
-    width: 40px;
-}
-
-.skills, .hobbies{
-    Width: 1136px;
-    Height: 244px;
-    Gap: 32px;
-}
-
-.skills__title, .hobbies__title{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.skills__line, .hobbies__line{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap:.5rem;
-}
-
-.skills__box, .hobbies__box{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items:start;
-    height: 176px;
-    width: 176px;
-    background-color: #fff;
-    padding:0;
-}
-.skills__box ul, .hobbies__box ul{
-    margin: 1rem;
-}
 
 
 /* Experiência Acadêmica*/
@@ -297,12 +182,22 @@ section.formcontato{
     
 }
 
+.formcontato--esquerda{
+    mix-blend-mode: multiply;
+    background-size: cover;
+}
+.formcontato__img{
+    mix-blend-mode: multiply;
+    width: 600px;
+}
+
 .formcontato__text{
     display: flex;
     flex-direction: column;
     padding: 0;
     margin: 0;
 }
+
 .formcontato__form{
     display: flex;
     flex-direction: column;

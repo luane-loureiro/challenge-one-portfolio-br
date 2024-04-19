@@ -1,0 +1,48 @@
+section.menu{
+    height: auto;
+    width: 1136px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.menu__list{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    width:642px;
+    height: 19px;
+    gap: 32px;
+}
+
+section.title{
+    width: 1136px;
+    padding-top: 2rem;
+}
+
+.menu__title{
+    mix-blend-mode: multiply;
+    height: 6rem;
+}
+
+.title__profile{
+    height: 368px;
+}
+
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap:1rem;
+}
+
+.title__network{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    gap: 2rem;
+
+}
