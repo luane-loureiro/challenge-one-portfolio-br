@@ -1,0 +1,45 @@
+/*Contato*/
+section.formcontato{
+    width: 100%;
+    height: auto;
+    background-color: var(--cor__media_1);
+    display: flex;
+    justify-content: center;
+}
+
+.formcontato__contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    Width: 100%;
+    gap:1rem;
+}
+
+.formcontato--direita{
+    display: flex;
+    flex-direction: column;  
+}
+
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+}
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.formcontato__input{
+    display: flex;
+    align-items: flex-start;
+    Width: 600px;
+    Height: 56px;
+    padding: 0;
+    margin: 0;
+}

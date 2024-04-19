@@ -1,0 +1,33 @@
+/* experiência*/
+.experience{
+    Width: 1136px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.experience .experience__section__title{
+    text-align: center;
+}
+
+.experiencie__box{
+    display: flex;
+    flex-direction: row;
+    Width: 1136px;
+    padding: 0rem;
+}
+
+.experience__img{
+    display: block;
+    justify-content: center;
+    margin: 1rem;
+    width: 600px;
+    padding: 0 2rem;
+}
+
+.experience__info{
+    width: 400px;
+    padding: 1rem;
+}

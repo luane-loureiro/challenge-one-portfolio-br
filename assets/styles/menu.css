@@ -1,0 +1,23 @@
+section.menu{
+    height: auto;
+    width: 1136px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.menu__list{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    width:642px;
+    height: 19px;
+    gap: 32px;
+}
+
+.menu__title{
+    mix-blend-mode: multiply;
+    height: 6rem;
+}

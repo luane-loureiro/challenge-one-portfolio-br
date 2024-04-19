@@ -1,0 +1,37 @@
+/*Sessão Skills e Hobbies*/
+.skills__img img, .hobbies__img img{
+    width: 40px;
+}
+
+.skills, .hobbies{
+    Width: 1136px;
+    Height: 244px;
+    Gap: 32px;
+}
+
+.skills__title, .hobbies__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills__line, .hobbies__line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:.5rem;
+}
+
+.skills__box, .hobbies__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:start;
+    height: 176px;
+    width: 176px;
+    background-color: #fff;
+    padding:0;
+}
+.skills__box ul, .hobbies__box ul{
+    margin: 1rem;
+}

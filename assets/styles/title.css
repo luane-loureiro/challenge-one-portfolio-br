@@ -1,0 +1,31 @@
+/*Sessão Title*/
+section.title{
+    width: 1136px;
+    padding-top: 2rem;
+}
+
+.title__profile{
+    height: 368px;
+    
+}
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.title__div, .skill__hobbie__box, .experience {
+    align-items: center;
+    border-radius: 1px;
+    background-color: var(--cor__transparente);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.title__network{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    gap: 2rem;
+
+}
