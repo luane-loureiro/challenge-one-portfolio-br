@@ -14,6 +14,10 @@ coloque nas sessões indicadas*/
 }
 
 body {
+<<<<<<< HEAD
+=======
+    width: 100%;
+>>>>>>> f7bf449be93a9215fb0975725a77ccf8ca7f27c1
     box-sizing: border-box;
     background-color: var(--cor__clara);
     background-position: top;
@@ -58,19 +62,6 @@ https://en.bem.info/methodology/quick-start/*/
     gap: 1rem;
 }
 
-/*Sessão Menu*/
-header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: .5rem;
-}
-
-header img{
-    height: 24px;
-}
-
-
 h1{    
     font-size: 3.25rem;
     font-weight: 700;
@@ -91,6 +82,191 @@ p{
     font-weight: 400;
 }
 
+<<<<<<< HEAD
+=======
+/*Sessão About*/
+
+
+
+/* Experiência Acadêmica*/
+
+.academic{
+    width: 100%;
+    height: auto;
+    background-color: var(--cor__media_1);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 0;
+}
+.academic__courses{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    Width: 1136px;
+}
+
+section .academic__courses__item__img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 328px;
+    height: 286px;
+    background-color: var(--cor-de-fundo);
+}
+section .academic__courses__item__img img{
+    width: 150px;
+}
+.text{
+    width: 328px;
+    height: 130px;
+}
+
+
+/* experiência*/
+
+.experience{
+    Width: 1136px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.experience .experience__section__title{
+    text-align: center;
+}
+
+.experiencie__box{
+    display: flex;
+    flex-direction: row;
+    Width: 1136px;
+    padding: 0rem;
+}
+
+.experience__img{
+    display: block;
+    justify-content: center;
+    margin: 1rem;
+    width: 600px;
+    padding: 0 2rem;
+}
+
+.experience__info{
+    width: 400px;
+    padding: 1rem;
+}
+
+
+/*Contato*/
+
+section.formcontato{
+    width: 100%;
+    height: auto;
+    background-color: var(--cor__media_1);
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.formcontato__contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    Width: 1136px;
+    gap:1rem;
+
+}
+
+.formcontato--direita{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.formcontato--esquerda{
+    mix-blend-mode: multiply;
+    background-size: cover;
+}
+.formcontato__img{
+    mix-blend-mode: multiply;
+    width: 600px;
+}
+
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:.5rem;
+    padding: 0;
+    margin: 0;
+
+}
+.formcontato__input{
+    display: flex;
+    align-items: flex-start;
+    Width: 600px;
+    Height: 56px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.experiencia__botao--repo, .formcontato__botao{
+    align-items: center;
+    width: 165px;
+    height:51px;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+    color: var(--cor__escura);
+    border: var(--cor__escura) 2px solid;
+    background-color: transparent;
+    border-radius: 1rem;
+    margin: 2rem 1rem 0 0;
+}
+
+.experiencia__botao--repo:hover{
+    background-color: var(--cor__media_1);
+}
+ .formcontato__botao:hover{
+    background-color: var(--cor__clara);
+}
+
+.experiencia__botao--demo{
+    align-items: center;
+    width: 165px;
+    height:51px;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+    background-color: var(--cor__media_2);
+    color: var(--cor__clara);
+    border: none;
+    border-radius: 1rem;
+    margin: 2rem 1rem 0 0;
+}
+
+.experiencia__botao--demo:hover {
+    background-color: var(--cor__media_1);
+    color: var(--cor__escura);
+}
+
+>>>>>>> f7bf449be93a9215fb0975725a77ccf8ca7f27c1
 /*footeer*/
 
 footer{

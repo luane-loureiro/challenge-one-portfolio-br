@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 /*Sessão About*/
+=======
+>>>>>>> f7bf449be93a9215fb0975725a77ccf8ca7f27c1
 section.about{
     width: 100%;
     height: auto;
@@ -12,4 +15,8 @@ section.about{
 section div.about__container{
     width: 1136px;
     padding: 1.5rem;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> f7bf449be93a9215fb0975725a77ccf8ca7f27c1

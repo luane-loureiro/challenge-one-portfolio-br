@@ -1,17 +1,52 @@
+<<<<<<< HEAD
 /*Sessão Title*/
+=======
+section.menu{
+    height: auto;
+    width: 1136px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.menu__list{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    width:642px;
+    height: 19px;
+    gap: 32px;
+}
+
+>>>>>>> f7bf449be93a9215fb0975725a77ccf8ca7f27c1
 section.title{
     width: 1136px;
     padding-top: 2rem;
 }
 
+<<<<<<< HEAD
 .title__profile{
     height: 368px;
     
 }
+=======
+.menu__title{
+    mix-blend-mode: multiply;
+    height: 6rem;
+}
+
+.title__profile{
+    height: 368px;
+}
+
+>>>>>>> f7bf449be93a9215fb0975725a77ccf8ca7f27c1
 .title__div{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+<<<<<<< HEAD
 }
 
 .title__div, .skill__hobbie__box, .experience {
@@ -20,6 +55,10 @@ section.title{
     background-color: var(--cor__transparente);
     border-radius: 1rem;
     padding: 1rem;
+=======
+    align-items: center;
+    gap:1rem;
+>>>>>>> f7bf449be93a9215fb0975725a77ccf8ca7f27c1
 }
 
 .title__network{
