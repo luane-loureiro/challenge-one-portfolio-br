@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-=======
-header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: .5rem;
-}
-
-header img{
-    height: 24px;
-
-}
-
->>>>>>> f7bf449be93a9215fb0975725a77ccf8ca7f27c1
 section.menu{
     height: auto;
     width: 1136px;
@@ -32,11 +17,6 @@ section.menu{
     gap: 32px;
 }
 
-<<<<<<< HEAD
-.menu__title{
-    mix-blend-mode: multiply;
-    height: 6rem;
-=======
 section.title{
     width: 1136px;
     padding-top: 2rem;
@@ -45,24 +25,4 @@ section.title{
 .menu__title{
     mix-blend-mode: multiply;
     height: 6rem;
-}
-
-.title__profile{
-    height: 368px;
-}
-
-.title__div{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    gap:1rem;
-}
-
-.title__network{
-    display: flex;
-    flex-direction: row;
-    padding-left: 0;
-    gap: 2rem;
->>>>>>> f7bf449be93a9215fb0975725a77ccf8ca7f27c1
 }
