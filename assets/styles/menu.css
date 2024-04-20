@@ -1,3 +1,15 @@
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+}
+
+header img{
+    height: 24px;
+
+}
+
 section.menu{
     height: auto;
     width: 1136px;
@@ -15,11 +27,6 @@ section.menu{
     width:642px;
     height: 19px;
     gap: 32px;
-}
-
-section.title{
-    width: 1136px;
-    padding-top: 2rem;
 }
 
 .menu__title{
