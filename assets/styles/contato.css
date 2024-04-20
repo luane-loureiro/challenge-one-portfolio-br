@@ -21,6 +21,16 @@ section.formcontato{
     flex-direction: column;  
 }
 
+.formcontato--esquerda{
+    mix-blend-mode: multiply;
+    background-size: cover;
+}
+
+.formcontato__img{
+    mix-blend-mode: multiply;
+    width: 600px;
+}
+
 .formcontato__text{
     display: flex;
     flex-direction: column;
