@@ -20,6 +20,7 @@ section.formcontato{
 .formcontato--direita{
     display: flex;
     flex-direction: column;  
+    border: red solid 2px;
 }
 
 .formcontato__img{
@@ -30,6 +31,7 @@ section.formcontato{
 .formcontato__text{
     display: flex;
     flex-direction: column;
+
 }
 
 .formcontato__form{
