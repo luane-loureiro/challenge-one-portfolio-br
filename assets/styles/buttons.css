@@ -12,9 +12,17 @@
     margin: 2rem 1rem;
 }
 
+.formcontato__botao{
+    background-color: var(--cor__clara);    
+    border: var(--cor__media_1) 0.2rem solid;
+}
+
 .experiencia__botao--repo:hover, .formcontato__botao:hover{
     border: 0.2rem solid var(--cor__escura);
     font-weight: 600;
+}
+.formcontato__botao:hover{
+    background-color: var(--cor__media_1);  
 }
 
 .experiencia__botao--demo{
