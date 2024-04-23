@@ -40,3 +40,25 @@
 .skills__box ul, .hobbies__box ul{
     margin: 1rem;
 }
+
+@media (max-width: 768px) {
+    .skills, .hobbies{
+        width: 704px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .skills__line, .hobbies__line{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .skills__box, .hobbies__box{
+        width: 224px;
+        height: 118px;
+    }
+    
+}

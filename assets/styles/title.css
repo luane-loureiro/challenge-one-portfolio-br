@@ -5,6 +5,7 @@ section.title{
 
 .title__profile{
     height: 368px;
+    width: 368px;
 }
 
 .title__div{
@@ -13,20 +14,29 @@ section.title{
     justify-content: space-between;
 }
 
-.title__div, .skill__hobbie__box, .experience {
-    align-items: center;
-    border-radius: 1px;
-    background-color: var(--cor__transparente);
-    border-radius: 1rem;
-    padding: 1rem;
-    align-items: center;
-    gap:1rem;
-}
-
 .title__network{
     display: flex;
     flex-direction: row;
     padding-left: 0;
     gap: 2rem;
+}
+
+@media (max-width: 768px) {
+    .title{
+        display: flex;
+        justify-content: center;
+    }
+    .title__div{
+        width: 704px;
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 1.5rem;
+    }
+
+    .title__profile{
+        width: 146px;
+        height: 146px;
+    }
+    
 
 }

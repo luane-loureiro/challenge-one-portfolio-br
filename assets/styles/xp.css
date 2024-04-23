@@ -31,3 +31,26 @@
     width: 400px;
     padding: 1rem;
 }
+
+
+@media (max-width: 768px) {
+    .experience{
+        width: 704px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    section .experiencie__box{
+        width: 704px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    
+    .experiencie__box img{
+        padding: 0rem;
+        margin: 0;
+    }
+}

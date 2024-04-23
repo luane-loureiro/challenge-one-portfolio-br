@@ -21,7 +21,6 @@ body {
     background-image: url("/assets/img/bg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    width: 100%;
     font-family: 'Raleway';
     color: var(--cor__escura);
     margin: 0;
@@ -79,6 +78,15 @@ p{
     font-weight: 400;
 }
 
+.title__div, .skill__hobbie__box, .experience {
+    align-items: center;
+    border-radius: 1px;
+
+    border-radius: 1rem;
+    padding: 1rem;
+    align-items: center;
+    gap:1rem;
+}
 
 /*footeer*/
 
@@ -103,6 +111,12 @@ utilize como referência os breakpoints @media abaixo*/
 
 /*Tablet*/
 @media (max-width: 768px) {
+    body {
+        width:768px;
+        box-sizing: border-box;
+        background-image: none;
+    }
+
     h1{
     font-size: 22px;
     height: 700;
@@ -119,119 +133,26 @@ utilize como referência os breakpoints @media abaixo*/
         font-size: 1rem;
         height: 500;
         gap: 0;
-
     }
+
 /* Menu */
-    section.menu{
-        display: flex;
-        width: 704px;
-    }
-
-.menu__list__item{ 
-    display: none; 
-}
-.mail{
-    display: flex;
-}
+    
+  
 
 /*title*/
-.title{
-    display: flex;
-    justify-content: center;
-}
-.title__div{
-    width: 704px;
-    height: auto;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-}
-.title__profile{
-    width: 146px;
-    height: 146px;
-    padding: 0;
-}
 
-section div.about__container{
-    width: 704px;
-    height: auto;
-    padding: 0;
-}
 
 
 /*Skills e Hobbies*/
-.skills, .hobbies{
-    width: 704px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.skills__line, .hobbies__line{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.skills__box, .hobbies__box{
-    width: 224px;
-    height: 118px;
-}
 
 
 /*Experiências acadêmicas*/
-.academic__courses{
-    width: 704px;
-    height: auto;
-}
 
-section .academic__courses__item__img{
-    width: 214px;
-    height: 118px; 
-}
-
-section .academic__courses__item__img img{
-    width: 85px;
-}
-
-.text{
-    width: 214px;
-}
 /*Expeirência profissional*/
-.experience{
-    width: 704px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 
-}
-
-section .experiencie__box{
-    width: 704px;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-}
-
-.experiencie__box img{
-    padding: 0rem;
-    margin: 0;
-}
 
 /*contato form*/
-.formcontato--direita{
-    width: 40rem;
-    padding: 2rem;
-}
-.formcontato__img{
-    display: none;
-}
-.formcontato__input, .formcontato__textarea{
-    width: 40rem;
 
-}
 
 }
 

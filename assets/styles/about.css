@@ -1,16 +1,27 @@
 /*Sessão About*/
-section.about{
-    width: 100%;
-    height: auto;
-    background-color: var(--cor__media_1);
-    margin-top:2rem; 
-    align-items: center;
+.about{
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: var(--cor__media_1);    
 }
 
-section div.about__container{
+.about__container{
     width: 1136px;
     padding: 1.5rem;
+}
+
+
+
+@media (max-width: 768px) {
+    .about{
+        width: 100%;
+    }
+    .about__container{
+        width: 704px;
+        height: auto;
+        padding: 1.5rem;
+    }
 }

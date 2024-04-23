@@ -3,22 +3,19 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    width: 1136px;
 }
 
-.menu__box{
+header img{
+    height: 24px;
+}
+
+.menu{
     width: 100%;
+    height: auto;
     display: flex;
     align-items:center;
     justify-content: center;
     background-color: var(--cor__clara);
-}
-
-.menu{
-    height: auto;
-    width: 1132px;
-    display: flex;
-    align-items:center;
 }
 
 .menu__list{
@@ -36,6 +33,25 @@ header{
     height: 4.5rem;
 }
 
-header img{
-    height: 24px;
+
+@media (max-width: 768px) {
+
+    .menu{
+        width: 704px;
+        justify-content: start;
+        gap: 18rem;
+    }
+
+    .menu__list__item{ 
+        display: none; 
+    }
+
+    .mail{
+        display: flex;    
+    }
+
+    .menu__list{
+        width: 100px;
+        display: flex;
+    }
 }
