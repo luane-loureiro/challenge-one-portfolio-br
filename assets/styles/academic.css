@@ -26,7 +26,9 @@ section .academic__courses__item__img{
     width: 328px;
     height: 286px;
     background-color: var(--cor-de-fundo);
+
 }
+
 section .academic__courses__item__img img{
     width: 150px;
 }

@@ -5,10 +5,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 2rem;
+    margin: 1rem 0 1rem;
 }
 
-.experience .experience__section__title{
+.experience__section__title{
     text-align: center;
 }
 
@@ -16,7 +17,6 @@
     display: flex;
     flex-direction: row;
     Width: 1136px;
-    padding: 0rem;
 }
 
 .experience__img{
