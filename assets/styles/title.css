@@ -37,6 +37,27 @@ section.title{
         width: 146px;
         height: 146px;
     }
+}
+@media (max-width: 425px) {
+    section.title{
+        padding-top: 1rem;
+    }
+    .title__div{
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        padding-top: .5rem;
+        margin: 0;
+    }
+    .title__profile{
+        width: 98px;
+        height: 98px;
+    }
     
-
+    .title__network{
+        width: 320px;
+        gap: 0.1rem;
+        justify-content: center;
+    }
+    
 }

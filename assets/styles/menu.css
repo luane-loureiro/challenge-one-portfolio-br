@@ -55,3 +55,27 @@ header img{
         display: flex;
     }
 }
+
+@media (max-width: 425px) {
+    section.menu{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        width: 340px;
+    }
+
+    .menu__title{
+       width: 100px;
+       height: auto;
+
+    }
+    .menu__star{
+        width: 1rem;
+        height: auto;
+    }
+
+    .menu__list{
+        width: auto;
+        padding-left: 3rem;
+    }
+}

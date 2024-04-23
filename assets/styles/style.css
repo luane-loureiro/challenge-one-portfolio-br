@@ -160,49 +160,8 @@ utilize como referência os breakpoints @media abaixo*/
 @media (max-width: 425px) {
 /*Menu*/
 
-section.menu{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    width: 340px;
-}
-
-.menu__title{
-    width: 100px;
-    height: auto;
-
-}
-.menu__star{
-    width: 1rem;
-    height: auto;
-}
-
-.menu__list{
-    width: auto;
-    padding-left: 3rem;
-}
 
 /*Titulo*/
-section.title{
-    padding-top: 1rem;
-}
-.title__div{
-    flex-direction: column;
-    align-items: center;
-    width: 300px;
-    padding-top: .5rem;
-    margin: 0;
-}
-.title__profile{
-    width: 98px;
-    height: 98px;
-}
-
-.title__network{
-    width: 320px;
-    gap: 0.1rem;
-    justify-content: center;
-}
 
 /*Sessão sobre*/
 section div.about__container{
