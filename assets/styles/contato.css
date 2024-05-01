@@ -66,3 +66,17 @@ section.formcontato{
     } 
 }
 
+@media (max-width: 425px) {
+    .formcontato--direita{
+        width: 234px;    
+        padding: 2rem;
+    }
+    .formcontato__img{
+        display: none;
+    }
+    .formcontato__input, .formcontato__textarea{
+        width: 234px;
+    }
+}
+
+

@@ -54,3 +54,22 @@
         margin: 0;
     }
 }
+
+@media (max-width: 425px) {
+    .experience{
+        width: 296px;
+    }
+    .experience__info{
+        width: 296px;
+    }
+    section .experiencie__box{
+        width: 296px;
+    }
+    .experiencie__box img{
+        width: 296px;
+    }
+    .experiencia__botao--repo, .formcontato__botao, .experiencia__botao--demo{
+        width: 108px;
+        height: 40px;
+    }
+}

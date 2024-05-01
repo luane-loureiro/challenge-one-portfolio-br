@@ -18,7 +18,7 @@ body {
     box-sizing: border-box;
     background-color: var(--cor__clara);
     background-position: top;
-    background-image: url("/assets/img/bg.png");
+    background-image: url("../img/bg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Raleway';
@@ -81,7 +81,6 @@ p{
 .title__div, .skill__hobbie__box, .experience {
     align-items: center;
     border-radius: 1px;
-
     border-radius: 1rem;
     padding: 1rem;
     align-items: center;
@@ -159,83 +158,12 @@ utilize como referência os breakpoints @media abaixo*/
 /*Mobile*/
 @media (max-width: 425px) {
 /*Menu*/
-
-
 /*Titulo*/
-
 /*Sessão sobre*/
-section div.about__container{
-    width: 320px;
-    height: auto;
-
-    padding: 0;
-}
-
 /*Skills e hobbies*/
-.skills, .hobbies{
-    width: 320px;
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-.skills__box, .hobbies__box{
-    width: 156px;
-    height: 118px;
-}
-
-
 /*Formação Acadêmica*/
-.academic__courses{
-    flex-direction: column;
-    width: 360px;
-    height: auto;
-}
-
-section .academic__courses__item__img{
-    width: 296px;
-    height: 118px; 
-}
-
-section .academic__courses__item__img img{
-    width: 85px;
-}
-.text{
-    width: 296px;
-}
 /*Experiência Profissional*/
-.experience{
-    width: 296px;
-}
-
-.experience__info{
-    width: 296px;
-}
-section .experiencie__box{
-    width: 296px;
-}
-
-.experiencie__box img{
-    width: 296px;
-}
-
-
-.experiencia__botao--repo, .formcontato__botao, .experiencia__botao--demo{
-    width: 108px;
-    height: 40px;
-}
  /*Contato*/
- .formcontato--direita{
-    width: 234px;    
-    padding: 2rem;
-}
-.formcontato__img{
-    display: none;
-}
-.formcontato__input, .formcontato__textarea{
-    width: 234px;
-}
-
 /*Footer*/
 .footer{
     height: 102px;
