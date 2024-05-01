@@ -19,6 +19,7 @@ body {
     background-color: var(--cor__clara);
     background-position: top;
     background-image: url("../img/bg.png");
+    background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Raleway';
