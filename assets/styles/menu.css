@@ -1,9 +1,8 @@
-header{
+.menu__box{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 0;
+    justify-content: center;
+    background-color: var(--cor__clara);
+    width: 100%;
 }
 
 header img{
@@ -11,12 +10,11 @@ header img{
 }
 
 .menu{
-    width: 100%;
+    width: 1136px;
     height: auto;
     display: flex;
     align-items:center;
     justify-content: space-between;
-    background-color: var(--cor__clara);
 }
 
 .menu__list{
@@ -24,8 +22,6 @@ header img{
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
-    width:642px;
-    height: 19px;
     gap: 32px;
 }
 
@@ -36,7 +32,6 @@ header img{
 
 
 @media (max-width: 768px) {
-
     .menu{
         width: 704px;
         justify-content: start;

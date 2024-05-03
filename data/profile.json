@@ -1,0 +1,114 @@
+{
+  "name": "Luane Loureiro",
+  "photo": "https://avatars.githubusercontent.com/u/100947092?v=4",
+  "job": "Front-End Developer JR",
+  "location": "Rio de Janeiro / RJ",
+  "phone": "(21) 99473-6215",
+  "email": "luachan@gmail.com",
+  "skills": {
+        "hardSkills": [
+      {
+        "name": "HTML5",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/portfolio-js-developer/main/data/imgs/html5.png"
+      },
+      {
+        "name": "Java Script",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/portfolio-js-developer/main/data/imgs/javascript.png"
+      },
+      {
+        "name": "Angular",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/portfolio-js-developer/main/data/imgs/angular.png"
+      },
+      {
+        "name": "CSS3",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/portfolio-js-developer/main/data/imgs/css.png"
+      },
+      {
+        "name": "AWS",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/portfolio-js-developer/main/data/imgs/aws.png"
+      },
+      {
+        "name": "Type Script",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/portfolio-js-developer/main/data/imgs/typescript.png"
+      }
+    ],
+    "softSkills": [
+      "Problem Solving",
+      "Creativity",
+      "Responsibility"
+    ]
+  },
+  "languages": [
+    "Português BR (Nativo)",
+    "Inglês (intermediário)",
+    "Japonês (Básico)"
+  ],
+  "portfolio": [
+    { 
+      "title":"Projeto Pokedex",
+      "name": "Projeto Final do Curso de Java Script, Ministrado na DIO",
+      "url": "https://github.com/luane-loureiro/js-developer-pokedex",
+      "github": true
+    },
+    {
+      "title":"Projeto Detona Ralph Game",
+      "name": "Projeto da DIO para a criação de uma Jogo de Click Inspirado em Detonha Ralph",
+      "url": "https://github.com/luane-loureiro/Detona-Ralph-Game-V0.1",
+      "github": true
+    },
+    {
+      "title":"Virtual Piano Project",
+      "name": "Projeto da DIO para a criação de uma Piano Virtual",
+      "url": "https://github.com/luane-loureiro/Piano-virtual",
+      "github": true
+    },
+    {
+      "title":"Peojeto Jogo da memoria Emoji",
+      "name": "Projeto da DIO para a criação de uma Jogo da Memória",
+      "url": "https://github.com/luane-loureiro/Jogo-da-memoria-emoji",
+      "github": true
+    },
+    {
+      "title":"YougiOh Game Project",
+      "name": "Projeto da DIO para a criação de uma Jogo de Jokenpo inspirado em Yugioh ",
+      "url": "https://github.com/luane-loureiro/jogo-yugioh",
+      "github": true
+    },
+    {
+      "title":"Jogo do número Secreto",
+      "name": "Projeto da Alura para a criação de uma Jogo de adivinhação ",
+      "url": "https://github.com/luane-loureiro/Jogo_do_numero_secreto_2.0",
+      "github": true
+    },
+    {
+      "title":"Pagina Dinâmica de Portfólio",
+      "name": "Projeto do curso de Java Script da DIO para a criação de uma página de portfolio dinamica e responsiva",
+      "url": "https://github.com/luane-loureiro/js-developer-portfolio",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Design - Nerd Shop",
+      "period": "2012 - Now days",
+      "description": [
+        "- CEO",
+        "- Creation of visual identity and trademark",
+        "- Development of exclusive products",
+        "- Development of the Virtual store",
+        "- Responsible for social media"
+      ]
+    },
+    {
+      "name": "Restorer of Historical Works - FAU/UFRJ",
+      "period": "2008 - 2009",
+      "description":[
+        "- Scientific initiation scholarship",
+        "- in the FAU historical collection", 
+        "- Research in the area of paper restoration", 
+        "- Restoration and conservation of original architectural designs of historic buildings"
+    
+      ]
+    }
+  ]
+}
