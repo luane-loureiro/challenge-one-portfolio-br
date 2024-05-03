@@ -62,3 +62,16 @@
     }
     
 }
+
+@media (max-width: 425px) {
+    .skills, .hobbies{
+        width: 320px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .skills__box, .hobbies__box{
+        width: 156px;
+        height: 118px;
+    }
+}

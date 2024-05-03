@@ -25,3 +25,11 @@
         padding: 1.5rem;
     }
 }
+
+@media (max-width: 425px) {
+    section div.about__container{
+        width: 320px;
+        height: auto;
+        padding: 0;
+    }
+}
