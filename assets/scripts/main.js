@@ -5,6 +5,19 @@ function updateProfileInfo(profileData) {
 
     const name = document.querySelector('.name__profile')
     name.innerText = profileData.name
+        
+    function RedesSociais(profileData) {
+        const social = document.getElementById('title__network')
+        social.innerHTML = profileData.social.map(skill => `
+        <li class="title__network__item" id="Gitrub">
+            <a href="">Github<img src='assets\img\arrow.png'> 
+            </a>
+        </li>
+        
+        `
+    ).join('')
+    }
+
 
     const job = document.getElementById('profile.job')
     job.innerText = profileData.job
