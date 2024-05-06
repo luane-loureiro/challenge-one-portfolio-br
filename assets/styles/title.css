@@ -6,6 +6,7 @@ section.title{
 .title__profile{
     height: 368px;
     width: 368px;
+    border-radius: 50%;
 }
 
 .title__div{

@@ -1,10 +1,9 @@
-
 function updateProfileInfo(profileData) {
-    const photo = document.getElementById('profile.photo')
+    const photo = document.getElementById('title__profile')
     photo.src = profileData.photo
     photo.alt = profileData.name
 
-    const name = document.getElementById('profile.name')
+    const name = document.querySelector('.name__profile')
     name.innerText = profileData.name
 
     const job = document.getElementById('profile.job')

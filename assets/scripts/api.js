@@ -1,6 +1,6 @@
+fetchProfileData()
 async function fetchProfileData() {
-    const url = 'https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/profile.json';
-    const response = await fetch(url)
-    const profileData = await response.json()
-    return profileData
+    const response = await fetch('https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/profile.json')
+    let profileData = await response.json()
+    return(profileData)
 }
