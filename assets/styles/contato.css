@@ -1,11 +1,8 @@
 /*Contato*/
-section.formcontato{
-    width: 100%;
+.formcontato{
+    width: 100vw;
     height: auto;
-    background-color: var(--cor__media_2);
-    display: flex;
-    justify-content: center;
-
+    background-color: var(--cor__media_1);
 }
 
 .formcontato__contacto{
@@ -19,18 +16,22 @@ section.formcontato{
 
 .formcontato--direita{
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    padding: 1rem 0;
 }
 
 .formcontato__img{
     mix-blend-mode: multiply;
-    height: 600px;
+    height: 100vh;
 }
 
 .formcontato__text{
+    width: 100%;
     display: flex;
     flex-direction: column;
-
+    margin: 0;
 }
 
 .formcontato__form{
@@ -49,7 +50,12 @@ section.formcontato{
     Height: 56px;
     padding: .5rem;
     margin: .2rem;
-    border-radius: 1px;
+    border-radius: 1rem;
+    border: var(--cor__escura) 3px solid;
+}
+
+.formcontato__textarea{
+    height: 150px;
 }
 
 @media (max-width: 768px) {
@@ -67,9 +73,14 @@ section.formcontato{
 }
 
 @media (max-width: 425px) {
+    .formcontato{
+        width: 100vw;
+        border: 3px red solid;
+    }
     .formcontato--direita{
         width: 234px;    
         padding: 2rem;
+        border: 3px red solid;
     }
     .formcontato__img{
         display: none;

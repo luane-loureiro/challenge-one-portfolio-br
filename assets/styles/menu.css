@@ -10,7 +10,7 @@ header img{
 }
 
 .menu{
-    width: 1136px;
+    width: 100vw;
     height: auto;
     display: flex;
     align-items:center;
@@ -32,7 +32,7 @@ header img{
 
 
 @media (max-width: 768px) {
-    .menu{
+    .menu__box{
         width: 704px;
         justify-content: start;
         gap: 18rem;
@@ -53,12 +53,22 @@ header img{
 }
 
 @media (max-width: 425px) {
-    section.menu{
+    .menu__box{
         display: flex;
-        flex-direction: row;
-        justify-content:space-between;
-        width: 340px;
+        justify-content: center;
+        background-color: var(--cor__clara);
+        width: 100%;
     }
+
+
+    .menu{
+        width: 320px;
+        height: auto;
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+    }
+
 
     .menu__title{
        width: 100px;

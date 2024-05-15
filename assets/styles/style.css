@@ -14,12 +14,12 @@ coloque nas sessões indicadas*/
 }
 
 body {
-    width: 100%;
+    width: 100vw;
     box-sizing: border-box;
     background-color: var(--cor__clara);
     background-position: top;
     background-image: url("../img/bg.png");
-    background-size: 100%;
+    background-size: 100vw;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Raleway';
@@ -54,6 +54,7 @@ https://en.bem.info/methodology/quick-start/*/
 
 .all {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
@@ -97,8 +98,8 @@ footer{
     background-color: var(--cor-de-fundo);  
 }
 
-footer .footer__rodape{
-    Width: 1136px;
+.footer__rodape{
+    Width: 100vw;
     height: 102px;
     display: flex;
     padding: 0;
@@ -113,7 +114,6 @@ utilize como referência os breakpoints @media abaixo*/
 /*Tablet*/
 @media (max-width: 768px) {
     body {
-        width:768px;
         box-sizing: border-box;
         background-image: none;
     }

@@ -7,6 +7,7 @@
     justify-content: center;
     gap: 2rem;
     margin: 1rem 0 1rem;
+    
 }
 
 .experience__section__title{
@@ -32,6 +33,14 @@
     padding: 1rem;
 }
 
+.experience__description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:0;
+    margin: 0;
+}
+
 
 @media (max-width: 768px) {
     .experience{
@@ -53,6 +62,15 @@
         padding: 0rem;
         margin: 0;
     }
+
+    .experience__info{
+        width: 600px;
+    }
+    .experience__description{
+        justify-content:space-around;
+        padding-top: 1rem;
+        gap:.2rem;
+    }
 }
 
 @media (max-width: 425px) {
@@ -68,8 +86,18 @@
     .experiencie__box img{
         width: 296px;
     }
+
+    .experience__description{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1rem;
+        gap:1rem;
+    }
+
     .experiencia__botao--repo, .formcontato__botao, .experiencia__botao--demo{
         width: 108px;
         height: 40px;
     }
+
+
 }
