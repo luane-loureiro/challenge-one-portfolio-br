@@ -9,8 +9,8 @@ function updateProfileInfo(profileData) {
     function RedesSociais(profileData) {
         const social = document.getElementById('title__network')
         social.innerHTML = profileData.social.map(skill => `
-        <li class="title__network__item" id="Gitrub">
-            <a href="">Github<img src='assets\img\arrow.png'> 
+        <li class="title__network__item">
+            <a href="${social.link}">${social.name}<img src='assets\img\arrow.png'> 
             </a>
         </li>
         
@@ -36,7 +36,8 @@ function updateProfileInfo(profileData) {
 
 function updateSoftSkills(profileData) {
     const softSkills = document.getElementById('profile.skills.softSkills')
-    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
+    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `
+    <li>${skill}</li>`).join('')
 }
 
 function updateHardSkills(profileData) {
