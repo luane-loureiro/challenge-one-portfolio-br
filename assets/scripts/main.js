@@ -1,4 +1,8 @@
 function updateProfileInfo(profileData) {
+    const email = document.getElementById('profile.email')
+    email.innerText = profileData.email
+    email.href = `mailto:${profileData.email}`
+
     const photo = document.getElementById('title__profile')
     photo.src = profileData.photo
     photo.alt = profileData.name
@@ -12,17 +16,12 @@ function updateProfileInfo(profileData) {
     const sobre = document.querySelector('.about__paragraph')
     sobre.innerText = profileData.sobre
 
-    const location = document.getElementById('profile.location')
-    location.innerText = profileData.location
+    // const location = document.getElementById('profile.location')
+    // location.innerText = profileData.location
 
-    const phone = document.getElementById('profile.phone')
-    phone.innerText = profileData.phone
-    phone.href = `tel:${profileData.phone}`
-
-    const email = document.getElementById('profile.email')
-    email.innerText = profileData.email
-    email.href = `mailto: ${profileData.email}`
-
+    // const phone = document.getElementById('profile.phone')
+    // phone.innerText = profileData.phone
+    // phone.href = `tel:${profileData.phone}`
 
 }
 

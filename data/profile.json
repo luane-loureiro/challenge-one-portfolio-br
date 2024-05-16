@@ -10,20 +10,20 @@
 
   "social": [
         {
-          "link":"https://github.com/luane-loureiro",
-          "rede": "GitHub"
+          "link":"https://www.linkedin.com/in/luane-loureiro",
+          "name":"Linkedin"
         },
         {
-          "link":"https://www.linkedin.com/in/luane-loureiro",
-          "rede":"Linkedin"
+          "link":"https://github.com/luane-loureiro",
+          "name": "GitHub"
         },
         {
           "link":"https://www.canva.com/design/DAE6kwWPsx4/jNzlHu44jk31o-x8-CdXjg/view?utm_content=DAE6kwWPsx4&utm_campaign=designshare&utm_medium=link&utm_source=editor",
-          "rede":"Portfólio"
+          "name":"Portfólio"
         },
         {
           "link":"https://www.canva.com/design/DAFw_gifCuM/-FiI2oz3oOVggI6xir0YDA/view?utm_content=DAFw_gifCuM&utm_campaign=designshare&utm_medium=link&utm_source=editor",
-          "rede":"Currículo"
+          "name":"Currículo"
         }
       ],
 
