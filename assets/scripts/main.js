@@ -21,11 +21,11 @@ function updateProfileInfo(profileData) {
     email.href = `mailto:${profileData.email}`
 }
 
-function github(profileData) {
-    const github = document.getElementById('github')
-    github.innerHTML = profileData.social.github.map(github => `
+function updadeRedesSociais(profileData) {
+    const social = document.getElementById('title__network')
+    social.innerHTML = profileData.social.map(social => `
     <li class="title__network__item">
-        <a href="${social.github.link}">${social.github.rede}<img src='assets\img\arrow.png'> 
+        <a href="${social.link}">${social.rede}<img src='assets\img\arrow.png'> 
         </a>
     </li>`
 ).join('')
