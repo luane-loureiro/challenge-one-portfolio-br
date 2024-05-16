@@ -5,19 +5,6 @@ function updateProfileInfo(profileData) {
 
     const name = document.querySelector('.name__profile')
     name.innerText = profileData.name
-        
-    function RedesSociais(profileData) {
-        const social = document.getElementById('title__network')
-        social.innerHTML = profileData.social.map(skill => `
-        <li class="title__network__item">
-            <a href="${social.link}">${social.name}<img src='assets\img\arrow.png'> 
-            </a>
-        </li>
-        
-        `
-    ).join('')
-    }
-
 
     const job = document.getElementById('profile.job')
     job.innerText = profileData.job
@@ -32,6 +19,16 @@ function updateProfileInfo(profileData) {
     const email = document.getElementById('profile.email')
     email.innerText = profileData.email
     email.href = `mailto:${profileData.email}`
+}
+
+function github(profileData) {
+    const github = document.getElementById('github')
+    github.innerHTML = profileData.social.github.map(github => `
+    <li class="title__network__item">
+        <a href="${social.github.link}">${social.github.rede}<img src='assets\img\arrow.png'> 
+        </a>
+    </li>`
+).join('')
 }
 
 function updateSoftSkills(profileData) {
@@ -78,6 +75,7 @@ function updateProfessionalExperience(profileData) {
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
+    updateRedesSociais(profileData)
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
     updateLanguages(profileData)
