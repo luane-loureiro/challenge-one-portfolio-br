@@ -30,11 +30,21 @@ function updateRedesSociais(profileData) {
     redes.innerHTML = profileData.social.map(rede => `
     <li class="title__network__item">
         <a href="${rede.link}">${rede.name}
-            <img src="https://github.com/luane-loureiro/challenge-one-portfolio-br/blob/master/assets/img/arrow.png"> 
+            <img src="https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/imgs/arrow.png"> 
         </a>
     </li>`
 ).join('')
 console.log(social)
+}
+
+function updateHardSkills(profileData) {
+    const hardSkills = document.getElementById('profile.skills.hardSkills')
+    hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `
+    <li>
+        <span class="skills__img"><img src="${skill.logo}" alt="${skill.name}"></span>
+        <span class="skills__name">${skill.name}</span>
+    </li>
+    `).join('')
 }
 
 function updateSoftSkills(profileData) {
@@ -43,10 +53,7 @@ function updateSoftSkills(profileData) {
     <li>${skill}</li>`).join('')
 }
 
-function updateHardSkills(profileData) {
-    const hardSkills = document.getElementById('profile.skills.hardSkills')
-    hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join('')
-}
+
 
 function updateLanguages(profileData) {
     const languages = document.getElementById('profile.languages')
