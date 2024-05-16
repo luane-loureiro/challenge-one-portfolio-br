@@ -6,7 +6,7 @@ function updateProfileInfo(profileData) {
     const name = document.querySelector('.name__profile')
     name.innerText = profileData.name
 
-    const job = document.getElementById('profile.job')
+    const job = document.querySelector('.job__profile')
     job.innerText = profileData.job
 
     const location = document.getElementById('profile.location')
@@ -29,6 +29,7 @@ function updadeRedesSociais(profileData) {
         </a>
     </li>`
 ).join('')
+console.log(social)
 }
 
 function updateSoftSkills(profileData) {
