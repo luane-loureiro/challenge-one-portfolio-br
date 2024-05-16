@@ -21,16 +21,16 @@ function updateProfileInfo(profileData) {
 
     const email = document.getElementById('profile.email')
     email.innerText = profileData.email
-    email.href = `mailto:${profileData.email}`
+    email.href = `mailto: ${profileData.email}`
 
 
 }
 
-function updadeRedesSociais(profileData) {
-    const social = document.getElementById('title__network')
-    social.innerHTML = profileData.social.map(social => `
+function updateRedesSociais(profileData) {
+    const redes = document.getElementById('title__network')
+    redes.innerHTML = profileData.social.map(rede => `
     <li class="title__network__item">
-        <a href="${social.link}">${social.rede}<img src='assets\img\arrow.png'> 
+        <a href="${rede.link}">${rede.rede}<img src='assets\img\arrow.png'> 
         </a>
     </li>`
 ).join('')
