@@ -29,7 +29,8 @@ function updateRedesSociais(profileData) {
     const redes = document.getElementById('title__network')
     redes.innerHTML = profileData.social.map(rede => `
     <li class="title__network__item">
-        <a href="${rede.link}">${rede.rede}<img src='assets\img\arrow.png'> 
+        <a href="${rede.link}">${rede.name}
+            <img src="https://github.com/luane-loureiro/challenge-one-portfolio-br/blob/master/assets/img/arrow.png"> 
         </a>
     </li>`
 ).join('')
