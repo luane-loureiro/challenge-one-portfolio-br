@@ -58,13 +58,24 @@
     "softSkills": [
       {
         "name":"Resolução de Problemas",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/problemas.svg"
+      },
+      {
+        "name":"Criatividade",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/criatividade.svg"
+      },
+      {
+        "name":"Foco",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/foco.svg"
+      },
+      {
+        "name":"Responsabilidade",
         "logo":""
+      },
+      {
+        "name":"Pontualidade",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/pontualidade.svg"
       }
-      ,
-      "Criatividade",
-      "Responsabolidade",
-      "Foco", 
-      "Pontualidade"
     ]
   },
   "languages": [
