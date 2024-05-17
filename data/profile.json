@@ -36,23 +36,23 @@
       },
       {
         "name": "Java Script",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/portfolio-js-developer/main/data/imgs/javascript.png"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/js-square.svg"
       },
       {
         "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/portfolio-js-developer/main/data/imgs/angular.png"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/angular.svg"
       },
       {
         "name": "CSS3",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/portfolio-js-developer/main/data/imgs/css.png"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/css3-alt2.svg"
       },
       {
         "name": "AWS",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/portfolio-js-developer/main/data/imgs/aws.png"
+        "logo": ""
       },
       {
         "name": "Type Script",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/portfolio-js-developer/main/data/imgs/typescript.png"
+        "logo": ""
       }
     ],
     "softSkills": [

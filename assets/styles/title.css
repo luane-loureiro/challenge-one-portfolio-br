@@ -22,6 +22,17 @@ section.title{
     gap: 2rem;
 }
 
+.item__arrow::before {
+    content: "";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/d3b00cb0ab6523fc4fb961a2ec273b29697ac770/data/icones-bags-svg/Arrow.svg');
+    margin-right: .5rem;
+}
+
 @media (max-width: 768px) {
     .title{
         display: flex;
@@ -61,15 +72,6 @@ section.title{
         justify-content: space-between;
     }
 
-    .a.item__arrow::before {
-        content: "";
-        display: inline-block;
-        width: 1rem;
-        height: 1rem;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-image: url('../img/arrow.png');
-        margin-right: .5rem;
-    }
+
     
 }
