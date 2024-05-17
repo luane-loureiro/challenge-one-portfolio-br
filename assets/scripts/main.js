@@ -30,7 +30,7 @@ function updateRedesSociais(profileData) {
     redes.innerHTML = profileData.social.map(rede => `
     <li class="title__network__item">
         <a href="${rede.link}">${rede.name}
-            <img src="https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/imgs/arrow.png"> 
+            <img src="https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/d3b00cb0ab6523fc4fb961a2ec273b29697ac770/data/icones-bags-svg/Arrow.svg"> 
         </a>
     </li>`
 ).join('')
