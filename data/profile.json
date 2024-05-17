@@ -48,11 +48,11 @@
       },
       {
         "name": "AWS",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/aws.svg"
       },
       {
         "name": "Type Script",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/.svg"
       }
     ],
     "softSkills": [
