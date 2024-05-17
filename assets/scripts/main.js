@@ -78,6 +78,8 @@ function updateSoftSkills(profileData) {
 </div>
 `).join('')
 
+console.log(hobbies)
+
  }
 
 

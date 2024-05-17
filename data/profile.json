@@ -77,11 +77,11 @@
         "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/pontualidade.svg"
       }
     ],
-    
+
     "hobbies": [
       {
         "name":"Ler",
-        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/book-5.svg.svg"
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/book-5.svg"
       },
       {
         "name":"dançar",
@@ -92,7 +92,7 @@
         "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/music.svg"
       },
       {
-        "name":"Resolução de Problemas",
+        "name":"Assistir Séries e Filmes",
         "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/tv-outline-rounded.svg"
       },
       {
