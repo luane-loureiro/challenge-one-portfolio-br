@@ -70,14 +70,42 @@
       },
       {
         "name":"Responsabilidade",
-        "logo":""
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/responsabilidade.svg"
       },
       {
         "name":"Pontualidade",
         "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/pontualidade.svg"
       }
+    ],
+    
+    "hobbies": [
+      {
+        "name":"Ler",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/book-5.svg.svg"
+      },
+      {
+        "name":"dançar",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/sports-gymnastics-rounded.svg"
+      },
+      {
+        "name":"Ouvir Boa Música",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/music.svg"
+      },
+      {
+        "name":"Resolução de Problemas",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/tv-outline-rounded.svg"
+      },
+      {
+        "name":"Pintura",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/palette-outline.svg"
+      },
+      {
+        "name":"Games",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/controller-outline.svg"
+      }
     ]
   },
+
   "languages": [
     "Português BR (Nativo)",
     "Inglês (intermediário)",

@@ -48,14 +48,37 @@ function updateHardSkills(profileData) {
             </ul>
         </div>
     `).join('')
-    console.log(hardSkills)
 }
 
-// function updateSoftSkills(profileData) {
-//     const softSkills = document.getElementById('profile.skills.softSkills')
-//     softSkills.innerHTML = profileData.skills.softSkills.map(skill => `
-//     <li>${skill}</li>`).join('')
-// }
+function updateSoftSkills(profileData) {
+    const softSkills = document.getElementById('profile.skills.softSkills')
+    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `
+    <div class="skills__box">
+    <ul>
+        <li class="skills__img"><img src="${skill.logo}" alt="${skill.name}">
+        </li>
+        <li class="skills__name">${skill.name}
+        </li>
+    </ul>
+</div>
+`).join('')
+
+ }
+
+ function updateHobbies(profileData) {
+    const hobbies = document.getElementById('profile.skills.hobbies')
+    hobbies.innerHTML = profileData.skills.hobbies.map(hobby => `
+    <div class="hobbies__box">
+    <ul>
+        <li class="hobbies__img"><img src="${hobby.logo}" alt="${hobby.name}">
+        </li>
+        <li class="hobbies__name">${hobby.name}
+        </li>
+    </ul>
+</div>
+`).join('')
+
+ }
 
 
 
@@ -94,9 +117,8 @@ function updateHardSkills(profileData) {
     updateProfileInfo(profileData)
     updateRedesSociais(profileData)
     updateHardSkills(profileData)
-
-    // updateSoftSkills(profileData)
-    // updateLanguages(profileData)
+    updateSoftSkills(profileData)
+    updateHobbies(profileData)
     // updatePortfolio(profileData)
     // updateProfessionalExperience(profileData)
 })()
