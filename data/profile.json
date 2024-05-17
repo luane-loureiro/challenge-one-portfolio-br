@@ -52,13 +52,19 @@
       },
       {
         "name": "Type Script",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/.svg"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/Typescript.svg"
       }
     ],
     "softSkills": [
-      "Problem Solving",
-      "Creativity",
-      "Responsibility"
+      {
+        "name":"Resolução de Problemas",
+        "logo":""
+      }
+      ,
+      "Criatividade",
+      "Responsabolidade",
+      "Foco", 
+      "Pontualidade"
     ]
   },
   "languages": [
