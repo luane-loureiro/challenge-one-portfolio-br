@@ -40,10 +40,11 @@ console.log(social)
 function updateHardSkills(profileData) {
     const hardSkills = document.getElementById('profile.skills.hardSkills')
     hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `
-    <li>
-        <span class="skills__img"><img src="${skill.logo}" alt="${skill.name}"></span>
-        <span class="skills__name">${skill.name}</span>
-    </li>
+                <li class="skills__img"><img src="${skill.logo}" alt="${skill.name}">
+                </li>
+                <li class="skills__name">${skill.name}
+                </li>
+
     `).join('')
 }
 
