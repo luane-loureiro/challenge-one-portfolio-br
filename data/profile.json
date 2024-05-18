@@ -106,6 +106,41 @@
     ]
   },
 
+  "formacao": [
+    {
+      "curso":"Artes Plásticas - Pintura",
+      "descricao": "2004 - 2009 (trancado) - EBA - UFRJ",
+      "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/ufrj.png"
+    },
+    {
+      "curso":"Desenho Industrial",
+      "descricao": "2009 - 2012 (trancado) - UESa",
+      "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/estacio.png"
+      
+    },
+    {
+      "curso":"Formação Java Script",
+      "descricao": "2024 - DIO",
+      "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/DIO.webp"
+    },
+    {
+      "curso":"AWS re:Start",
+      "descricao": "2023 - Escola da Nuvem",
+      "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/escoladanuvem.png"
+    },
+    {
+      "curso":"Game Design: Art and Concepts Specialization",
+      "descricao": "Em andamento - CALARTS",
+      "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/calarts.png"
+    },
+    {
+      "curso":"T6 One - Formaçâo Front-End",
+      "descricao": "2024 - Alura/Oracle",
+      "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/alura.png"
+    }
+  ],
+
+
   "languages": [
     "Português BR (Nativo)",
     "Inglês (intermediário)",
