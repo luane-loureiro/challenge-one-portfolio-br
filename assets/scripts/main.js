@@ -105,6 +105,8 @@ console.log(hobbies)
 </div>
 `
 ).join('')
+
+console.log(formacao)
 }
 
 
@@ -126,18 +128,21 @@ console.log(hobbies)
 //     }).join('')
 // }
 
-// function updateProfessionalExperience(profileData) {
-//     const professionalExperience = document.getElementById('profile.professionalExperience')
-//     professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
-//         return `
-//             <li>
-//                 <h3 class="title">${experience.name}</h3>
-//                 <p class="period">${experience.period}</p>
-//                 <p>${experience.description}</p>
-//             </li>
-//         `
-//     }).join('')
-// }
+function updateProfessionalExperience(profileData) {
+    const professionalExperience = document.getElementById('job__experience')
+    professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
+        return `
+            <li>
+                <h3 class="title">${experience.name}</h3>
+                <p class="period">${experience.period}</p>
+                   <li>
+                        ${experience.description}
+                    </li>
+
+            </li>
+        `
+    }).join('')
+    }
 
 (async () => {
     const profileData = await fetchProfileData()
@@ -147,6 +152,7 @@ console.log(hobbies)
     updateSoftSkills(profileData)
     updateHobbies(profileData)
     updateFormacao(profileData)
+
     // updatePortfolio(profileData)
-    // updateProfessionalExperience(profileData)
+    updateProfessionalExperience(profileData)
 })()

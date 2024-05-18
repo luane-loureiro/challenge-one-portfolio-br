@@ -1,0 +1,48 @@
+/*Sessão About*/
+.jobs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--cor__media_1);    
+   
+}
+
+.jobs__container{
+    width: 1136px;
+    padding: 1.5rem;
+
+}
+.jobs__title{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.job__descricao{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+@media (max-width: 768px) {
+    .jobs{
+        width: 100%;
+    }
+    .jobs__box{
+        width: 704px;
+        height: auto;
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 425px) {
+    section div.about__container{
+        width: 320px;
+        height: auto;
+        padding: 0;
+    }
+}
