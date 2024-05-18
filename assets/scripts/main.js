@@ -82,6 +82,31 @@ console.log(hobbies)
 
  }
 
+ function updateFormacao(profileData) {
+    const formacao = document.getElementById('academic__courses')
+    formacao.innerHTML = profileData.formacao.map(curso => `
+    <div class="academic__courses__box">
+    <ul class="academic__courses__list">
+        <li class="academic__courses__item__img">
+            <img src="${curso.logo}" ></li>
+        <div class="text">    
+            <li class="academic__courses__item__title">
+                <h4>
+                    ${curso.curso}
+                </h4>
+            </li>
+            <li class="academic__courses__item__subtitle">
+                <p>
+                    ${curso.descricao}
+                </p>
+            </li>
+        </div>
+    </ul>
+</div>
+`
+).join('')
+}
+
 
 
 // function updateLanguages(profileData) {
@@ -121,6 +146,7 @@ console.log(hobbies)
     updateHardSkills(profileData)
     updateSoftSkills(profileData)
     updateHobbies(profileData)
+    updateFormacao(profileData)
     // updatePortfolio(profileData)
     // updateProfessionalExperience(profileData)
 })()
