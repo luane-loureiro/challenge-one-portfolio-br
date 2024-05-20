@@ -152,14 +152,25 @@ function updateProfessionalExperience(profileData) {
     const professionalExperience = document.getElementById('job__experience')
     professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
         return `
-        <li>
-            <h3 class="title">${experience.name}</h3>
-            <p class="date">${experience.period}</p>
-            <p class="description">${experience.description.join('<br><br>')}</p>
-        </li>
+        <div class="jobs__box">
+        <ul class="jobs__list">
+            <li class="jobs__item__img">
+                <img src="${experience.logo}" ></li>
+            <div class="text">    
+                <li class="jobs__item__title">
+                    <h3 class="title">
+                        ${experience.name}
+                    </h3>
+                </li>
+                <li class="jobs__item__subtitle">
+                <h4 class="date">${experience.period}</h4>
+                <p class="description">${experience.description.join('<br><br>')}</p>
+                </li>
+            </div>
+        </ul>
+    </div>
     <br><br>
-        `
-    }).join('')
+        `}).join('')
     }
 
 (async () => {

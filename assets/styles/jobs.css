@@ -1,29 +1,56 @@
 /*Sessão About*/
-.jobs{
+.jobs__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--cor__media_1);
+    padding: 2rem;
+    border: 3px solid rgb(1, 106, 40);
+
+}
+.jobs__title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.jobs__box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:flex-start;
+    border: 3px solid blue;
+    height: 550px;
+}
+
+.job__experience{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    Width: 1136px;
+    height: auto;
+
+    border: 3px solid red;
+}
+
+.jobs__item__img{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    background-color: var(--cor__media_1);    
-   
+    width: 328px;
+    height: 286px;
+    background-color: var(--cor-de-fundo);
 }
 
-.jobs__container{
-    width: 1136px;
-    padding: 1.5rem;
-
-}
-.jobs__title{
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-
-.job__descricao{
-    display: flex;
-    flex-direction: column;
-    
+.jobs__item__img img{
+    width: 150px;
 }
 
 
