@@ -56,6 +56,8 @@
         width: 100%;
     }
     .jobs__box{
+        align-items: center;
+        justify-content: center;
         width: 704px;
         height: auto;
         padding: 1.5rem;
