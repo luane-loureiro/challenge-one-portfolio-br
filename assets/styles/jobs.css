@@ -7,9 +7,8 @@
     width: 100%;
     background-color: var(--cor__media_1);
     padding: 2rem;
-    border: 3px solid rgb(1, 106, 40);
-
 }
+
 .jobs__title{
     display: flex;
     flex-direction: row;
@@ -22,7 +21,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items:flex-start;
-    border: 3px solid blue;
     height: 550px;
 }
 
@@ -35,8 +33,6 @@
     gap: 2rem;
     Width: 1136px;
     height: auto;
-
-    border: 3px solid red;
 }
 
 .jobs__item__img{
@@ -67,7 +63,7 @@
 }
 
 @media (max-width: 425px) {
-    section div.about__container{
+    .jobs__container{
         width: 320px;
         height: auto;
         padding: 0;

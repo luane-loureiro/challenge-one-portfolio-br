@@ -136,17 +136,31 @@ function updateCertificacoes(profileData) {
 //     languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
 // }
 
-// function updatePortfolio(profileData) {
-//     const portfolio = document.getElementById('profile.portfolio')
-//     portfolio.innerHTML = profileData.portfolio.map(project => {
-//         return `
-//             <li>
-//                 <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
-//                 <a href="${project.url}" target="_blank">${project.url}</a>
-//             </li>
-//         `
-//     }).join('')
-// }
+ function updatePortfolio(profileData) {
+     const portfolio = document.getElementById('profile.portfolio')
+     portfolio.innerHTML = profileData.portfolio.map(project => {
+         return `
+         <div class="experiencie__box">
+         <img class="experience__img" src="${project.name}">
+         <div class="experience__info">
+             <h2 class="experience__title">${project.name}</h2>
+             <p class="experience__text">${project.name}</p>
+                 <div class="experience__description">
+                         <span class="experience__repo"><a href="${project.name}"><button class="experiencia__botao--repo">Repositório</button></a></span>
+                         <span class="experience__demo"><a href="${project.name}"><button class="experiencia__botao--demo">Ver demo</button></a></span>
+                 </div>
+         </div>
+     </div> 
+
+
+
+             <li>
+                <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
+                <a href="${project.url}" target="_blank">${project.url}</a>
+            </li>
+         `
+   }).join('')
+ }
 
 function updateProfessionalExperience(profileData) {
     const professionalExperience = document.getElementById('job__experience')
