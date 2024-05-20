@@ -193,7 +193,7 @@
     },
     {
       "name":"Peojeto Jogo da memoria Emoji",
-      "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/memoria.jpg", 
+      "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/memoria-emoji.PNG", 
       "descricao": "Projeto da DIO para a criação de uma Jogo da Memória",
       "git_url": "https://github.com/luane-loureiro/Jogo-da-memoria-emoji",
       "vercel_url":"https://jogo-da-memoria-emoji.vercel.app",
