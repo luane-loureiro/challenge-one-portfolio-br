@@ -83,13 +83,25 @@ function updateSoftSkills(profileData) {
  
 function updateCertificacoes(profileData) {
     const certificacoes = document.getElementById('profile.certificacao')
-    certificacoes.innerHTML = profileData.certificacao.map(certificacao => `
-    <li class="title__certificacao__item">
-        <a href="${certificacao.link}">${rede.name}
-            <img href="${certificacao.image}">
-        </a>
-    </li>`
-).join('')
+    certificacoes.innerHTML = profileData.certificacao.map(cert => `
+    <a href="${cert.link}">
+    <div class="certificacao__box">
+    <ul class="certificacao__list">
+        <li class="certificacao__item__img">
+
+                <img src="${cert.image}" >
+           
+        </li>  
+            <li class="certificacao__item__title">
+                <h4>
+                    ${cert.name}
+                </h4>
+            </li>
+    </ul>
+</div>
+</a>
+    
+    `).join('')
 }
 
  function updateFormacao(profileData) {

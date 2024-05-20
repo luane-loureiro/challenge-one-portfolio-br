@@ -1,13 +1,6 @@
 /* Experiência Acadêmica*/
 .academic{
-    width: 100%;
-    height: auto;
-    background-color: var(--cor__media_1);
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    padding: 1.5rem 0;
+    padding: 2rem;
 }
 .academic__courses{
     display: flex;

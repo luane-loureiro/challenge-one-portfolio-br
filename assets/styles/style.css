@@ -80,7 +80,7 @@ p{
     font-weight: 400;
 }
 
-.title__div, .skill__hobbie__box, .experience {
+.title__div, .skill__hobbie__box, .experience, .academic {
     align-items: center;
     border-radius: 1px;
     border-radius: 1rem;

@@ -164,6 +164,8 @@
     "Inglês (intermediário)",
     "Japonês (Básico)"
   ],
+
+
   "portfolio": [
     { 
       "title":"Projeto Pokedex",
@@ -210,6 +212,7 @@
   ],
   "professionalExperience": [
     {
+      "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/logo_nerdShop.png",
       "name": "Design - Nerd Shop",
       "period": "2012 - Now days",
       "description": [
@@ -220,6 +223,7 @@
       ]
     },
     {
+      "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/ufrj.png",
       "name": "Restauradora - FAU/UFRJ",
       "period": "2008 - 2009",
       "description":[
