@@ -217,8 +217,8 @@
     },
 
     {
-      "name":"Fokus - Alura",
-      "image":"", 
+      "name":"Alura Fokus",
+      "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/alura-fokus.PNG", 
       "descricao": "Aplicaivo web inspirado no metodo pomodoro, para focar em uma atividade.  Projeto feito durante o boot camp de Front End T6 - ONE O objetivo do projeto é praticar a manipulação de DOM.",
       "git_url": "https://github.com/luane-loureiro/Fokus",
       "vercel_url":"https://fokus-teal-ten.vercel.app",
@@ -226,7 +226,7 @@
     },
     {
       "name":"Alura Mid",
-      "image":"", 
+      "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/alura-mid.PNG", 
       "descricao": "Projeto para criar uma bateria digital.  Projeto feito durante o boot camp de Front End T6 - ONE O objetivo do projeto é praticar a manipulação de DOM.",
       "git_url": "https://github.com/luane-loureiro/Projeto-Alura-Mid",
       "vercel_url":"https://projeto-alura-mid-five.vercel.app",
