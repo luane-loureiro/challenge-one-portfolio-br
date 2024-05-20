@@ -36,6 +36,7 @@ function updateRedesSociais(profileData) {
 ).join('')
 }
 
+
 function updateHardSkills(profileData) {
     const hardSkills = document.getElementById('profile.skills.hardSkills')
     hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `
@@ -77,10 +78,19 @@ function updateSoftSkills(profileData) {
     </ul>
 </div>
 `).join('')
-
-console.log(hobbies)
-
  }
+
+ 
+function updateCertificacoes(profileData) {
+    const certificacoes = document.getElementById('profile.certificacao')
+    certificacoes.innerHTML = profileData.certificacao.map(certificacao => `
+    <li class="title__certificacao__item">
+        <a href="${certificacao.link}">${rede.name}
+            <img href="${certificacao.image}">
+        </a>
+    </li>`
+).join('')
+}
 
  function updateFormacao(profileData) {
     const formacao = document.getElementById('academic__courses')
@@ -105,8 +115,6 @@ console.log(hobbies)
 </div>
 `
 ).join('')
-
-console.log(formacao)
 }
 
 
@@ -150,7 +158,7 @@ function updateProfessionalExperience(profileData) {
     updateSoftSkills(profileData)
     updateHobbies(profileData)
     updateFormacao(profileData)
-
+    updateCertificacoes(profileData)
     // updatePortfolio(profileData)
     updateProfessionalExperience(profileData)
 })()
