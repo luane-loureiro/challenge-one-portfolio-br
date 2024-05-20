@@ -26,7 +26,25 @@
           "name":"Currículo"
         }
       ],
+  "certificacao": [
+        {
+          "link":"https://www.credly.com/badges/0d9a3786-cd96-449f-981e-8bedcddeab62",
+          "name":"AWS - cloud practitioner",
+          "image":"https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
+        },
 
+        {
+          "link":"https://www.credly.com/badges/a98f95c4-aa0f-4d9c-a490-4ddfe4529f8a",
+          "name":"AWS - Educate Introduction to Cloud 101",
+          "image":"https://images.credly.com/size/340x340/images/8d67bbf4-128b-4141-b5f1-1bc61bbfbaa6/image.png"
+        },
+
+        {
+          "link":"https://www.credly.com/badges/806205e6-f6af-451d-98a5-78816c1b2f07",
+          "name":"AWS re/Start Graduate",
+          "image":"https://images.credly.com/size/340x340/images/44e2c252-5d19-4574-9646-005f7225bf53/image.png"
+        },
+      ],
 
   "skills": {
         "hardSkills": [
