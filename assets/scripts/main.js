@@ -137,29 +137,21 @@ function updateCertificacoes(profileData) {
 // }
 
  function updatePortfolio(profileData) {
-     const portfolio = document.getElementById('profile.portfolio')
+     const portfolio = document.getElementById('experience__container')
      portfolio.innerHTML = profileData.portfolio.map(project => {
          return `
          <div class="experiencie__box">
-         <img class="experience__img" src="${project.name}">
-         <div class="experience__info">
-             <h2 class="experience__title">${project.name}</h2>
-             <p class="experience__text">${project.name}</p>
-                 <div class="experience__description">
-                         <span class="experience__repo"><a href="${project.name}"><button class="experiencia__botao--repo">Repositório</button></a></span>
-                         <span class="experience__demo"><a href="${project.name}"><button class="experiencia__botao--demo">Ver demo</button></a></span>
-                 </div>
-         </div>
-     </div> 
-
-
-
-             <li>
-                <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
-                <a href="${project.url}" target="_blank">${project.url}</a>
-            </li>
-         `
-   }).join('')
+            <img class="experience__img" src="${project.image}">
+            <div class="experience__info">
+                <h2 class="experience__title">${project.name}</h2>
+                <p class="experience__text">${project.descricao}</p>
+                <div class="experience__description">
+                    <span class="experience__repo"><a href="${project.git_url}"><button class="experiencia__botao--repo">Repositório</button></a></span>
+                    <span class="experience__demo"><a href="${project.vercel_url}"><button class="experiencia__botao--demo">Ver demo</button></a></span>
+                </div>
+            </div>
+        </div> 
+    `}).join('')
  }
 
 function updateProfessionalExperience(profileData) {
@@ -196,6 +188,6 @@ function updateProfessionalExperience(profileData) {
     updateHobbies(profileData)
     updateFormacao(profileData)
     updateCertificacoes(profileData)
-    // updatePortfolio(profileData)
+    updatePortfolio(profileData)
     updateProfessionalExperience(profileData)
 })()
