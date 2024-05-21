@@ -80,6 +80,10 @@ p{
     font-weight: 400;
 }
 
+.formulario__campo{
+    border: none;
+}
+
 .title__div, .skill__hobbie__box, .experience, .academic {
     align-items: center;
     border-radius: 1px;
@@ -88,6 +92,26 @@ p{
     align-items: center;
     gap:1rem;
     background-color: var(--cor__transparente);
+}
+.msg__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg__box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.msg__box img{
+    width: 60px;
+    margin-bottom: 1.5rem;
 }
 
 /*footeer*/
