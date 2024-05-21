@@ -9,12 +9,6 @@
     Gap: 32px;
 }
 
-.skills__title, .hobbies__title{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .skills__line, .hobbies__line{
     display: flex;
     flex-direction: row;

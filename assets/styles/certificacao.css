@@ -15,16 +15,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
     Width: 1136px;
 }
-
-.title__certificacao{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 
 .certificacao__item__img{
     display: flex;
@@ -34,7 +26,6 @@
     width: 328px;
     height: 286px;
     background-color: var(--cor-de-fundo);
-
 }
 
 .certificacao__item__img img{

@@ -125,34 +125,59 @@
   },
 
   "formacao": [
-    {
-      "curso":"Artes Plásticas - Pintura",
+    { 
+      "name":"Universidade Federal Do Rio de Janeiro",
+      "curso":[
+        "Artes Plásticas - Pintura (8 Semestres)",
+        "Bacharelado em Dança (8 Semestres)"
+      ],
       "descricao": "2004 - 2009 (trancado) - EBA - UFRJ",
       "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/ufrj.png"
     },
     {
-      "curso":"Desenho Industrial",
+      "name":"Universidade Estácio de Sá",
+      "curso":[
+        "Desenho Industrial (7 semestres)"
+      ],
       "descricao": "2009 - 2012 (trancado) - UESa",
       "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/estacio.png"
       
     },
     {
-      "curso":"Formação Java Script",
+      "name":"Digital Inovação One",
+      "curso":[
+        "Formação Java Script (39 Horas)",
+        "Fundamentos de Computação em Nuvem na AWS (12 Horas)",
+        "Introdução a Criação de Websites com HTML5 e CSS3 (6 Horas)",
+        "Potência Tech iFood - Desenvolvimento de Jogos (77 Horas)",
+        "Fundamentos de Front-End (25 Horas)"
+      ],
       "descricao": "2024 - DIO",
       "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/DIO.webp"
     },
     {
-      "curso":"AWS re:Start",
+      "name":"Escola da Nuvem",
+      "curso":[
+        "AWS re:Start"
+      ],
       "descricao": "2023 - Escola da Nuvem",
       "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/escoladanuvem.png"
     },
     {
-      "curso":"Game Design: Art and Concepts Specialization",
+      "name":"California Institute of the Arts",
+      "curso":[
+        "Game Design: Art and Concepts Specialization"
+      ],
       "descricao": "Em andamento - CALARTS",
       "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/calarts.png"
     },
     {
-      "curso":"T6 One - Formaçâo Front-End",
+      "name":"Alura e Oracle",
+      "curso":[
+        "T6 One - Iniciante em Programação",
+        "T6 One - Formaçâo Front-End",
+        "T6 One - Empreendedorismo, Agilidade e Protagonismo na Carreira"
+      ],
       "descricao": "2024 - Alura/Oracle",
       "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/alura.png"
     }

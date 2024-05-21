@@ -108,25 +108,28 @@ function updateCertificacoes(profileData) {
     const formacao = document.getElementById('academic__courses')
     formacao.innerHTML = profileData.formacao.map(curso => `
     <div class="academic__courses__box">
-    <ul class="academic__courses__list">
-        <li class="academic__courses__item__img">
-            <img src="${curso.logo}" ></li>
-        <div class="text">    
-            <li class="academic__courses__item__title">
-                <h4>
-                    ${curso.curso}
-                </h4>
+        <ul class="academic__courses__list">
+            <li class="academic__courses__item__img">
+                <img src="${curso.logo}" >
             </li>
-            <li class="academic__courses__item__subtitle">
-                <p>
-                    ${curso.descricao}
-                </p>
-            </li>
-        </div>
-    </ul>
-</div>
-`
-).join('')
+            <div class="text">    
+                <details class="academic__courses__item__title">
+                    <summary>
+                    ${curso.name}
+                    </summary>
+                    <h4>
+                        ${curso.curso}
+                    </h4>
+                    <li class="academic__courses__item__subtitle">
+                        <p>
+                            ${curso.descricao}
+                        </p>
+                    </li>
+                </details>
+            </div>
+        </ul>
+    </div>
+`).join('')
 }
 
 
@@ -151,7 +154,7 @@ function updateCertificacoes(profileData) {
                 </div>
             </div>
         </div> 
-    `}).join('')
+         `}).join('')
  }
 
 function updateProfessionalExperience(profileData) {
