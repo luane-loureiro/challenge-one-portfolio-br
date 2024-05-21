@@ -52,6 +52,14 @@
 
 
 @media (max-width: 768px) {
+    .jobs__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px red solid;
+    }
+
     .jobs{
         width: 100%;
     }
@@ -61,11 +69,19 @@
         width: 704px;
         height: auto;
         padding: 1.5rem;
+
     }
 }
 
 @media (max-width: 425px) {
-    .jobs__container{
+    .jobs__item__img{
+        align-items: center;
+        justify-content: center;
+        width: 214px;
+        height: 118px; 
+    }
+
+    .job__experience{
         width: 320px;
         height: auto;
         padding: 0;
