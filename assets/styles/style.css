@@ -15,7 +15,6 @@ coloque nas sessões indicadas*/
 
 body {
     width: 100vw;
-    box-sizing: border-box;
     background-color: var(--cor__clara);
     background-position: top;
     background-image: url("../img/bg.png");
@@ -30,7 +29,6 @@ body {
 }
 
 ol, ul,li {
-    list-style: none;
     margin: 0;
     padding: 0;
 }

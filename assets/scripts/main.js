@@ -113,19 +113,17 @@ function updateCertificacoes(profileData) {
                 <img src="${curso.logo}" >
             </li>
             <div class="text">    
-                <details class="academic__courses__item__title">
-                    <summary>
-                    ${curso.name}
-                    </summary>
-                    <h4>
+                <div class="academic__courses__item__title">
+                    <h4>${curso.name}</h4>
+                    <li>
                         ${curso.curso}
-                    </h4>
+                    </li>
                     <li class="academic__courses__item__subtitle">
                         <p>
                             ${curso.descricao}
                         </p>
                     </li>
-                </details>
+                </div>
             </div>
         </ul>
     </div>
