@@ -22,12 +22,11 @@
 .academic__courses__box{
     display: inline-block;
     flex-direction: column;
+    padding-bottom: 2rem;
 }
 
 .academic__courses__item__img{
     padding: 1rem;
-    overflow: hidden;
-    z-index: 1;
     box-shadow: rgba(0, 0, 0, 0.5) 0.1em 0.1em 0em;
     display: flex;
     flex-direction: column;

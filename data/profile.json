@@ -136,19 +136,6 @@
       "curso":"Desenho Industrial (7 semestres)",
       "descricao": "2009 - 2012 (trancado) - UESa",
       "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/estacio.png"
-      
-    },
-    {
-      "name":"Digital Inovação One",
-      "curso":"Formação Java Script (39 Horas)",
-      "descricao": "2024 - DIO",
-      "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/DIO.webp"
-    },
-    {
-      "name":"Escola da Nuvem",
-      "curso":"AWS re:Start",
-      "descricao": "2023 - Escola da Nuvem",
-      "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/escoladanuvem.png"
     },
     {
       "name":"California Institute of the Arts",
@@ -157,10 +144,40 @@
       "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/calarts.png"
     },
     {
+      "name":"Digital Inovação One",
+      "curso":"Formação HTML Web Developer (21 Horas)",
+      "descricao": "2024 - DIO",
+      "logo":"https://hermes.dio.me/tracks/62ed1f1d-8d76-4bbc-905f-e73d20cb82f5.png"
+    },
+    {
+      "name":"Digital Inovação One",
+      "curso":"Formação Java Script (39 Horas)",
+      "descricao": "2024 - DIO",
+      "logo":"https://hermes.dio.me/tracks/55e7040f-775b-47e5-a8fb-69d002ca17a9.png"
+    },
+    {
+      "name":"Ifood - Digital Inovação One",
+      "curso":"Potência Tech iFood - Desenvolvimento de Jogos (77 Horas)",
+      "descricao": "2024 - DIO",
+      "logo":"https://hermes.dio.me/tracks/83f8150a-6429-4c1a-9207-d5bff610f647.png"
+    },
+    {
+      "name":"Digital Inovação One",
+      "curso":"Fundamentos de Computação em Nuvem na AWS (12 Horas)",
+      "descricao": "2023 - DIO",
+      "logo":"https://hermes.dio.me/tracks/eac28003-aab4-4427-9e80-d750b44894c7.png"
+    }, 
+    {
+      "name":"Digital Inovação One",
+      "curso":"Fundamentos de Front-End (25 Horas)",
+      "descricao": "2024 - DIO",
+      "logo":"https://hermes.dio.me/tracks/2b3eb506-d986-4a63-b353-c086684ff557.png"
+    }, 
+    {
       "name":"Alura e Oracle",
       "curso":"T6 One - Formaçâo Front-End",
       "descricao": "2024 - Alura/Oracle",
-      "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/alura.png"
+      "logo":"https://compliancesolucoes.com.br/wp-content/uploads/2022/11/ONE_logo_rgb.png"
     }
   ],
 

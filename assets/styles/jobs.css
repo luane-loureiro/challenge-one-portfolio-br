@@ -9,6 +9,9 @@
     padding: 2rem;
 }
 
+.jobs__list{
+    padding-bottom: 2rem;
+}
 .jobs__box{
     display: flex;
     flex-direction: row;
