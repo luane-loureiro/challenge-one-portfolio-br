@@ -193,8 +193,20 @@
     }, 
     {
       "name":"Alura e Oracle",
-      "curso":"T6 One - Formaçâo Front-End",
+      "curso":"T6 One - Iniciante em Programação",
       "descricao": "2024 - Alura/Oracle",
+      "logo":"https://compliancesolucoes.com.br/wp-content/uploads/2022/11/ONE_logo_rgb.png"
+    },
+    {
+      "name":"Alura e Oracle",
+      "curso":"T6 One - Desenvolvimento Pessoal",
+      "descricao": "2024 - Alura/Oracle",
+      "logo":"https://compliancesolucoes.com.br/wp-content/uploads/2022/11/ONE_logo_rgb.png"
+    },
+    {
+      "name":"Alura e Oracle",
+      "curso":"T6 One - Formaçâo Front-End",
+      "descricao": "Em Andamento - Alura/Oracle",
       "logo":"https://compliancesolucoes.com.br/wp-content/uploads/2022/11/ONE_logo_rgb.png"
     }
   ],
