@@ -144,6 +144,12 @@
       "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/calarts.png"
     },
     {
+      "name":"Escola da Nuvem",
+      "curso":"Fundamentos em Tecnologia e Computação na Nuvem",
+      "descricao": "2024 - Escola da Nuven",
+      "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/escoladanuvem.png"
+    },
+    {
       "name":"Digital Inovação One",
       "curso":"Formação HTML Web Developer (21 Horas)",
       "descricao": "2024 - DIO",
