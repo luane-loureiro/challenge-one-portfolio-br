@@ -10,6 +10,13 @@
     padding: 1.5rem 0;
 }
 
+.certificacao__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .certificacao__line{
     display: flex;
     flex-direction: row;
@@ -24,7 +31,9 @@
     align-items: center;
     justify-content: center;
     width: 328px;
-    height: 286px;
+    height: auto;
+    padding: 1rem;
+    text-align: center;
     background-color: var(--cor-de-fundo);
 }
 
@@ -65,7 +74,7 @@
     
     .certificacao__item__img{
         width: 296px;
-        height: 118px; 
+        height: auto; 
     }
     
     .certificacao__item__img img{

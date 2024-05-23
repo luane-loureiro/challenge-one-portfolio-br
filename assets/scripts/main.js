@@ -90,18 +90,16 @@ function updateCertificacoes(profileData) {
         <li class="certificacao__item__img">
 
                 <img src="${cert.image}" >
-           
-        </li>  
-            <li class="certificacao__item__title">
                 <h4>
                     ${cert.name}
-                </h4>
-            </li>
+                </h4>          
+        </li>
+          
     </ul>
 </div>
 </a>
     
-    `).join('')
+    `).join('<br><br>')
 }
 
  function updateFormacao(profileData) {
@@ -147,12 +145,18 @@ function updateCertificacoes(profileData) {
                 <h2 class="experience__title">${project.name}</h2>
                 <p class="experience__text">${project.descricao}</p>
                 <div class="experience__description">
-                    <span class="experience__repo"><a href="${project.git_url}"><button class="experiencia__botao--repo">Repositório</button></a></span>
+                    <span class="experience__repo">
+                        <a href="${project.git_url}">
+                            <button class="experiencia__botao--repo">
+                            Repositório
+                            </button>
+                        </a>
+                    </span>
                     <span class="experience__demo"><a href="${project.vercel_url}"><button class="experiencia__botao--demo">Ver demo</button></a></span>
                 </div>
             </div>
         </div> 
-         `}).join('')
+         `}).join('<br>')
  }
 
 function updateProfessionalExperience(profileData) {
@@ -160,21 +164,21 @@ function updateProfessionalExperience(profileData) {
     professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
         return `
         <div class="jobs__box">
-        <ul class="jobs__list">
+        <di class="jobs__list">
             <li class="jobs__item__img">
                 <img src="${experience.logo}" ></li>
             <div class="text">    
                 <li class="jobs__item__title">
-                    <h3 class="title">
+                    <h4 class="title">
                         ${experience.name}
-                    </h3>
+                    </h4>
                 </li>
                 <li class="jobs__item__subtitle">
                 <h4 class="date">${experience.period}</h4>
                 <p class="description">${experience.description.join('<br><br>')}</p>
                 </li>
             </div>
-        </ul>
+        </di>
     </div>
     <br><br>
         `}).join('')

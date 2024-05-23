@@ -58,6 +58,12 @@
     height: 150px;
 }
 
+.botao__enviar{
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+
 @media (max-width: 768px) {
     .formcontato--direita{
         width: 40rem;

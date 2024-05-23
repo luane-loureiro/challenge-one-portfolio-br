@@ -12,6 +12,13 @@
     height: auto;
 }
 
+.academic__courses__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .academic__courses__box{
     display: inline-block;
     flex-direction: column;
@@ -48,11 +55,6 @@ section .academic__courses__item__img img{
     height: auto;
 }
 
-section .academic__courses__item__img{
-    width: 214px;
-    height: 118px; 
-}
-
 section .academic__courses__item__img img{
     width: 85px;
 }
@@ -70,7 +72,6 @@ section .academic__courses__item__img img{
     }
     
     section .academic__courses__item__img{
-        width: 296px;
         height: 118px; 
     }
     
