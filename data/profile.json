@@ -146,8 +146,14 @@
     {
       "name":"Escola da Nuvem",
       "curso":"Fundamentos em Tecnologia e Computação na Nuvem",
-      "descricao": "2024 - Escola da Nuven",
+      "descricao": "2024 - AWS - Re:Start",
       "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/escoladanuvem.png"
+    },
+    {
+      "name":"Skill Builder AWS",
+      "curso":"Elementos essenciais do AWS Cloud Practitioner (22 Horas)",
+      "descricao": "2023 - Skill Builder AWS",
+      "logo":"https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
     },
     {
       "name":"Digital Inovação One",
