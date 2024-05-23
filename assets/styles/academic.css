@@ -19,7 +19,6 @@
 
 .academic__courses__item__img{
     padding: 1rem;
-    border-radius: 1rem 1rem 0 0;
     overflow: hidden;
     z-index: 1;
     box-shadow: rgba(0, 0, 0, 0.5) 0.1em 0.1em 0em;
@@ -40,11 +39,7 @@ section .academic__courses__item__img img{
     height: 130px;
 }
 
-details{
-    border-radius: 0 0 1rem 1rem;
-    box-shadow: rgba(0, 0, 0, 0.5) 0.1em 0.1em 0.4em;
-    padding: 1rem;
-}
+
 
 @media (max-width: 768px) {
 .academic__courses{
