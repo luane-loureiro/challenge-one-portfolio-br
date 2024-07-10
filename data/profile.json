@@ -83,7 +83,25 @@
       {
         "name": "Figma",
         "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/figma-line.svg"
-      }
+      },       
+      {
+        "name": "Adobe Photo Shop",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/adobe-photoshop.svg"
+      },
+      {
+        "name": "Adobe Illustrator",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/adobe-illustrator.svg"
+      },
+      {
+        "name": "Corel Draw",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/coreldraw.svg"
+      },
+      {
+        "name": "ProCreate",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/procreate.svg"
+      },
+
+
 
     ],
     "softSkills": [
