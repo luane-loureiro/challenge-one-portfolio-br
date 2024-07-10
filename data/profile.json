@@ -71,7 +71,20 @@
       {
         "name": "Type Script",
         "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/Typescript.svg"
+      },
+      {
+        "name": "React",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/react-line.svg"
+      },
+      {
+        "name": "Python",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/python-outline.svg"
+      }, 
+      {
+        "name": "Figma",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/figma-line.svg"
       }
+
     ],
     "softSkills": [
       {
@@ -147,6 +160,12 @@
       "name":"Escola da Nuvem",
       "curso":"Fundamentos em Tecnologia e Computação na Nuvem",
       "descricao": "2024 - AWS - Re:Start",
+      "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/escoladanuvem.png"
+    },
+    {
+      "name":"Escola da Nuvem",
+      "curso":"Extensão - Solutions Architect ‒ Associate",
+      "descricao": "2024 - AWS - Solutions Architect ‒ Associate",
       "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/escoladanuvem.png"
     },
     {
