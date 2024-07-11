@@ -53,28 +53,28 @@
         "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/908b2ae5af3dbfd1c86c17f6a9f9ef8c9be3ba8e/data/icones-bags-svg/html5.svg"
       },
       {
-        "name": "Java Script",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/js-square.svg"
-      },
-      {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/angular.svg"
-      },
-      {
         "name": "CSS3",
         "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/css3-alt2.svg"
       },
       {
-        "name": "AWS",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/aws.svg"
+        "name": "Java Script",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/js-square.svg"
       },
       {
         "name": "Type Script",
         "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/Typescript.svg"
       },
       {
+        "name": "Angular",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/angular.svg"
+      },
+      {
         "name": "React",
         "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/React.svg"
+      },
+      {
+        "name": "AWS",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/aws.svg"
       },
       {
         "name": "Python",
@@ -100,8 +100,6 @@
         "name": "ProCreate",
         "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/procreate_2.svg"
       }
-
-
 
     ],
     "softSkills": [
@@ -195,7 +193,19 @@
     {
       "name":"Cursos Progra{M}aria",
       "curso":"Front-End | Meu primeiro site responsivo (17 Horas)",
-      "descricao": "2024 - DIO",
+      "descricao": "2024 - Eu Progr{Amo}",
+      "logo":"https://import.cdn.thinkific.com/cdn-cgi/image/width=384,dpr=1,onerror=redirect/584413%2Fcustom_site_themes%2Fid%2FyoJJsuyoTQO9BoMA8vsL__Programaria_horizontal_fundobranco-72DPI.png"
+    },
+    {
+      "name":"Cursos Progra{M}aria",
+      "curso":"Análise de Dados | Meu primeiro dashboard (15 Horas)",
+      "descricao": "Em Andamento - Eu Progr{Amo}",
+      "logo":"https://import.cdn.thinkific.com/cdn-cgi/image/width=384,dpr=1,onerror=redirect/584413%2Fcustom_site_themes%2Fid%2FyoJJsuyoTQO9BoMA8vsL__Programaria_horizontal_fundobranco-72DPI.png"
+    },
+    {
+      "name":"Cursos Progra{M}aria",
+      "curso":"Back-End | Minha Primeira API (7 Horas)",
+      "descricao": "Em Andamento - Eu Progr{Amo}",
       "logo":"https://import.cdn.thinkific.com/cdn-cgi/image/width=384,dpr=1,onerror=redirect/584413%2Fcustom_site_themes%2Fid%2FyoJJsuyoTQO9BoMA8vsL__Programaria_horizontal_fundobranco-72DPI.png"
     },
     {
@@ -230,20 +240,32 @@
     }, 
     {
       "name":"Alura e Oracle",
-      "curso":"T6 One - Iniciante em Programação",
+      "curso":"T6 One - Iniciante em Programação (54 horas)",
       "descricao": "2024 - Alura/Oracle",
       "logo":"https://compliancesolucoes.com.br/wp-content/uploads/2022/11/ONE_logo_rgb.png"
     },
     {
       "name":"Alura e Oracle",
-      "curso":"T6 One - Desenvolvimento Pessoal",
+      "curso":"T6 One - Desenvolvimento Pessoal (38 horas)",
       "descricao": "2024 - Alura/Oracle",
       "logo":"https://compliancesolucoes.com.br/wp-content/uploads/2022/11/ONE_logo_rgb.png"
     },
     {
       "name":"Alura e Oracle",
-      "curso":"T6 One - Formaçâo Front-End",
-      "descricao": "Em Andamento - Alura/Oracle",
+      "curso":"T6 One - Especialização Front-End (82 horas)",
+      "descricao": "Maio/2024 - Alura/Oracle",
+      "logo":"https://compliancesolucoes.com.br/wp-content/uploads/2022/11/ONE_logo_rgb.png"
+    },
+    {
+      "name":"Alura e Oracle",
+      "curso":"T6 One - Empreendedorismo, Agilidade e Protagonismo na Carreira (54 hoas)",
+      "descricao": "julho 2024 - Alura/Oracle",
+      "logo":"https://compliancesolucoes.com.br/wp-content/uploads/2022/11/ONE_logo_rgb.png"
+    },
+    {
+      "name":"Alura e Oracle",
+      "curso":"T6 One - React (81 hoas)",
+      "descricao": "julho 2024 - Alura/Oracle",
       "logo":"https://compliancesolucoes.com.br/wp-content/uploads/2022/11/ONE_logo_rgb.png"
     }
   ],
