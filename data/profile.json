@@ -58,7 +58,7 @@
       },
       {
         "name": "Java Script",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/js-square.svg"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_js.svg"
       },
       {
         "name": "Type Script",
@@ -90,7 +90,7 @@
       },
       {
         "name": "Adobe Illustrator",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/adobe-illustrator.svg"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_illustrator.svg"
       },
       {
         "name": "Corel Draw",
@@ -105,11 +105,11 @@
     "softSkills": [
       {
         "name":"Resolução de Problemas",
-        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/problemas.svg"
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_problemsolve.svg"
       },
       {
         "name":"Criatividade",
-        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/criatividade.svg"
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_criatividade.svg"
       },
       {
         "name":"Foco",
@@ -117,12 +117,30 @@
       },
       {
         "name":"Responsabilidade",
-        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/responsabilidade.svg"
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_responsabilidade.svg"
       },
       {
         "name":"Pontualidade",
-        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/pontualidade.svg"
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_pontualidade.svg"
+      },
+      {
+        "name":"Aprendizagem Continua",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_aprendizagem_continua.svg"
+      },
+      {
+        "name":"Organização",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_organizacao.svg"
+      },
+      {
+        "name":"Moral e Ética Profissional",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_moraleetica.svg"
+      },
+      {
+        "name":"Perceverença",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_perceveranca.svg"
       }
+
+      
     ],
 
     "hobbies": [
