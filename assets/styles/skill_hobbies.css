@@ -1,6 +1,6 @@
 /*Sessão Skills e Hobbies*/
 .skills__img img, .hobbies__img img{
-    height: 60px;
+    height: 80px;
     Width: auto;
     margin-bottom: .5rem;
 }
