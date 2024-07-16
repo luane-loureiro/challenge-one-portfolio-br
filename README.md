@@ -2,25 +2,47 @@
 ---
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/168887837-b6d26532-6782-48dc-92eb-e48bf6c57a15.png">
+     <img width="600" heigth="600" src="https://github.com/user-attachments/assets/e418f161-d83f-4589-b3c9-3905be8d1914">
+
 </p>
 
-###  Primeiros Passos:
+### ⭐ Sobre o Chalenge:
 ---
-#### 🔹Marque esse projeto com uma ⭐
-#### 🔹Siga as orientações do que temos neste repositório 📚
+#### 🔹Projeto feito durante a jornada Front-End do projeto Oracle T6one 
+#### 🔹O Objetivo do projeto criar um Portfolio virtual, para praticar e aplicar seus conhecimentos em HTML, CSS e Java Script.
+#### 🔹O design e cores do projeto original do Figma foi modificado, para combinar com a minha marca pessoal.
+#### 🔹Modifiquei o texto e dados estáticos para dinámicos, assim qualquer pessoa pode usar o projeto como base, modificando apena o JSON do peojeto.
+#### 🔹O conteudo do site sendo dinámico também facilita na hora de atualizar informaçôes e conteúdos.
+<br>
+<br>
 
-
-### Analisando nosso repositório!
+### 💻 Tecnologias Usadas no Projeto
 ---
-### Este é o repositório base do nosso projeto, nele voce encontrará:
-#### 🔹index.html: Documento HTML finalizado que você pode utilizar em seu projeto. Fonte, CSS e JavaScript já linkado e todas as sessões comentadas. Sinta-se a vontade para executar o seu próprio HTML caso deseje;
-#### 🔹style.css: Documento de CSS com instruções de estilo e também algumas sugestões para seu desenvolvimento
-#### 🔹validacao.js: Documento vazio para que possa aplicar sua lógica de programação, trabalhando com a validação de formulário em JavaScript
-#### Ao clonar, ou realizar o download do projeto base, você tera essa apresentação:
+<img height="25px" alt="Static Badge" src="https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=ffffff&labelColor=E34F26&color=E34F26&text_size=15&style=for-the-badge"> <img height="25px" alt="Static Badge" src="https://img.shields.io/badge/CSS 3-1572B6?logo=css3&logoColor=ffffff&labelColor=1572B6&color=1572B6&text_size=15&style=for-the-badge"> <img height="25" alt="Static Badge" src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=ffffff&labelColor=F7DF1E&color=F7DF1E&text_size=15&style=for-the-badge">
+<br>
+<br>
 
+### 🧮 Conceitos Abordados:
+---
+#### 🔹 **Código Limpo**
+#### 🔹 **Organisaçâo de Arquivos**
+#### 🔹 **Manipução de Dom**
+#### 🔹 **Responsividade**
+#### 🔹 **JSON como Servidor de dados**
+#### 🔹 **API**
+<br>
+<br>
 
-<p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/168888313-d031e9e1-1449-4b73-bd3c-3102223097f3.png">
-</p>
+### 🧩 feather futuras:
+---
+#### 🔹 Dark Mode
+#### 🔹 trocar o Idioma da página
+#### 🔹 novas seções
+#### 🔹 Ajustes nos ícones e design
+<br>
+<br>
+
+###  🚀 Deploy do Projeto:
+---
+https://challenge-one-portfolio-br-nine.vercel.app/
 
