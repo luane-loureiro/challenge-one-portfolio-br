@@ -65,6 +65,10 @@
         "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_ts.svg"
       },
       {
+        "name": "Node JS",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_node.svg"
+      },
+      {
         "name": "Angular",
         "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_angular.svg"
       },
