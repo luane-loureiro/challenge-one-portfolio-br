@@ -50,7 +50,7 @@
         "hardSkills": [
       {
         "name": "HTML5",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_html.svg"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_html5.svg"
       },
       {
         "name": "CSS3",
@@ -70,7 +70,7 @@
       },
       {
         "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_angular.svg"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_angular_2.svg"
       },
       {
         "name": "React",
@@ -78,15 +78,15 @@
       },
       {
         "name": "AWS",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/aws.svg"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_aws.svg"
       },
       {
         "name": "Python",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/python-outline.svg"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_python.svg"
       }, 
       {
         "name": "Figma",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/figma-line.svg"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_figma.svg"
       },       
       {
         "name": "Adobe Photo Shop",
