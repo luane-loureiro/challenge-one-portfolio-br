@@ -365,7 +365,25 @@
       "git_url": "https://github.com/luane-loureiro/Projeto-Alura-Mid",
       "vercel_url":"https://projeto-alura-mid-five.vercel.app",
       "github": true
+    },
+    {
+      "name":"space APP",
+      "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/spaceApp.png", 
+      "descricao": "Projeto para criar uma site de imagens do espaço.  Projeto feito durante o boot camp de especialização React T6 - ONE O objetivo do projeto é praticar a estutura de componentes react com vite.",
+      "git_url": "https://github.com/luane-loureiro/space-app",
+      "vercel_url":"https://space-app-jet.vercel.app/",
+      "github": true
+    },
+    {
+      "name":"Blog Olá Mundo",
+      "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/blogOlaMundo.png", 
+      "descricao": "Projeto para criar um Blog.  Projeto feito durante o boot de especoalização React T6 - ONE O objetivo do projeto é praticar a estutura de componentes react router dom.",
+      "git_url": "https://github.com/luane-loureiro/Alura--ola-mundo",
+      "vercel_url":"https://alura-ola-mundo-sandy.vercel.app/",
+      "github": true
     }
+
+
   ],
 
 
