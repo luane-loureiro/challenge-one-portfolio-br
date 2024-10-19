@@ -12,22 +12,22 @@
         {
           "link":"https://www.linkedin.com/in/luane-loureiro",
           "name":"Linkedin"
-          "image-bi":"<i class="bi bi-linkedin"></i>"
+          "image-bi":"<i class='bi bi-linkedin'></i>"
         },
         {
           "link":"https://github.com/luane-loureiro",
           "name": "GitHub"
-          "image-bi":"<i class="bi bi-github"></i>"
+          "image-bi":"<i class='bi bi-github'></i>"
         },
         {
           "link":"https://www.canva.com/design/DAE6kwWPsx4/jNzlHu44jk31o-x8-CdXjg/view?utm_content=DAE6kwWPsx4&utm_campaign=designshare&utm_medium=link&utm_source=editor",
           "name":"Portfólio"
-          "image-bi":"<i class="bi bi-images"></i>"
+          "image-bi":"<i class='bi bi-images'></i>"
         },
         {
           "link":"https://www.canva.com/design/DAFw_gifCuM/-FiI2oz3oOVggI6xir0YDA/view?utm_content=DAFw_gifCuM&utm_campaign=designshare&utm_medium=link&utm_source=editor",
           "name":"Currículo"
-          "image-bi":"<i class="bi bi-person-badge"></i>"
+          "image-bi":'<i class="bi bi-person-badge'></i>"
         }
       ],
   "certificacao": [
