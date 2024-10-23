@@ -1,0 +1,95 @@
+/* experiência*/
+.experience{
+    Width: 1136px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem, 
+}
+
+.experiencie__box{
+    display: flex;
+    flex-direction: row;
+    Width: 1136px;
+    padding-bottom: 2rem;
+}
+
+.experience__img{
+    display: block;
+    justify-content: center;
+    width: 60%;
+}
+
+.experience__info{
+    width: 400px;
+    padding: 1rem;
+}
+
+.experience__description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:0;
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .experience{
+        width: 704px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    section .experiencie__box{
+        width: 704px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    
+    .experiencie__box img{
+        padding: 0rem;
+        margin: 0;
+    }
+
+    .experience__info{
+        width: 600px;
+    }
+    .experience__description{
+        justify-content:space-around;
+        padding-top: 1rem;
+        gap:.2rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .experience{
+        width: 296px;
+    }
+    .experience__info{
+        width: 296px;
+    }
+    section .experiencie__box{
+        width: 296px;
+    }
+    .experiencie__box img{
+        width: 296px;
+    }
+
+    .experience__description{
+        align-items: center;
+        padding-top: 1rem;
+        gap:1rem;
+    }
+
+    .experiencia__botao--repo, .formcontato__botao, .experiencia__botao--demo{
+        width: 108px;
+        height: 40px;
+    }
+
+
+}

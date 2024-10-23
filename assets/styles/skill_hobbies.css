@@ -1,0 +1,77 @@
+/*Sessão Skills e Hobbies*/
+.skills__img img, .hobbies__img img{
+    height: 80px;
+    Width: auto;
+    margin-bottom: .5rem;
+}
+
+.skills, .hobbies{
+    Width: 1136px;
+    Height: auto;
+    Gap: 2rem;
+
+}
+
+.skills__line, .hobbies__line{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+    gap:1rem;
+
+}
+
+.skills__box, .hobbies__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:start;
+    height: 176px;
+    width: 176px;
+    background-color: #fff;
+    padding:0;
+
+}
+.skills__box:hover, .hobbies__box:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease
+}
+
+.skills__box ul, .hobbies__box ul{
+    margin: 1rem;
+}
+
+@media (max-width: 768px) {
+    .skills, .hobbies{
+        width: 704px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .skills__line, .hobbies__line{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .skills__box, .hobbies__box{
+        width: 224px;
+        height: 118px;
+    }
+    
+}
+
+@media (max-width: 425px) {
+    .skills, .hobbies{
+        width: 320px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .skills__box, .hobbies__box{
+        width: 156px;
+        height: 118px;
+    }
+}

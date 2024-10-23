@@ -1,0 +1,99 @@
+/*Sessão About*/
+.jobs__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--cor__media_1);
+    padding: 2rem;
+}
+
+.jobs__list{
+    padding-bottom: 2rem;
+}
+.jobs__box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:flex-start;
+    height: 450px;
+}
+
+.job__experience{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    Width: 1136px;
+    height: auto;
+}
+.jobs__item__title{
+    display: flex;
+    justify-content: left;
+    padding: 0;
+}
+
+.jobs__item__title h3{
+    padding-top: 1rem;
+    margin: 0;
+    font-weight: 600;
+}
+
+.jobs__item__subtitle h4{
+    padding: .3rem 0 1rem 0;
+    font-weight: 400;
+    margin: 0;
+}
+
+.jobs__item__img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 328px;
+    height: 186px;
+    background-color: var(--cor-de-fundo);
+}
+
+.jobs__item__img img{
+    width: 150px;
+}
+
+
+
+@media (max-width: 768px) {
+    .jobs__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .jobs{
+        width: 100%;
+    }
+    .jobs__box{
+        align-items: center;
+        justify-content: center;
+        width: 704px;
+        height: auto;
+        padding: 1.5rem;
+
+    }
+}
+
+@media (max-width: 425px) {
+    .jobs__item__img{
+        height: 118px; 
+    }
+
+    .job__experience{
+        width: 320px;
+        height: auto;
+        padding: 0;
+    }
+}

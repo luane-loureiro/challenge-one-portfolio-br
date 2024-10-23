@@ -1,0 +1,83 @@
+/* Experiência Acadêmica*/
+.academic{
+    padding: 2rem;
+}
+.academic__courses{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    Width: 1136px;
+    height: auto;
+}
+
+.academic__courses__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.academic__courses__box{
+    display: inline-block;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+.academic__courses__item__img{
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.5) 0.1em 0.1em 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 295px;
+    height: 186px;
+    background-color: var(--cor-de-fundo);
+}
+
+section .academic__courses__item__img img{
+    width: 150px;
+}
+.text{
+    width: 428px;
+    height: 130px;
+}
+
+
+
+@media (max-width: 768px) {
+.academic__courses{
+    grid-template-columns: 1fr;
+    width: 704px;
+    height: auto;
+}
+
+section .academic__courses__item__img img{
+    width: 85px;
+}
+
+.text{
+    width: 214px;
+}
+}
+
+@media (max-width: 425px) {
+    .academic__courses{
+        flex-direction: column;
+        width: 360px;
+        height: auto;
+    }
+    
+    section .academic__courses__item__img{
+        height: 118px; 
+    }
+    
+    section .academic__courses__item__img img{
+        width: 85px;
+    }
+    .text{
+        width: 296px;
+    }
+}

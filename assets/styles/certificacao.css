@@ -1,0 +1,91 @@
+/* Certificações*/
+.certificacao{
+    padding: 2rem;
+
+}
+.certificacao__container{
+    width: 100%;
+    height: auto;
+    background-color: var(--cor__media_1);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.certificacao__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.certificacao__line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    Width: 1086px;
+
+}
+
+
+.certificacao__item__img{
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.5) 0.1em 0.1em 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 295px;
+    height: 200px;
+    background-color: var(--cor-de-fundo);
+}
+
+.certificacao__item__img img{
+    width: 150px;
+}
+.text{
+    width: 328px;
+    height: 130px;
+}
+
+@media (max-width: 768px) {
+.certificacao__line{
+    width: 704px;
+    height: auto;
+}
+
+.certificacao__item__img{
+    width: 214px;
+    height: 118px; 
+}
+
+.certificacao__item__img img{
+    width: 85px;
+}
+
+.text{
+    width: 214px;
+}
+}
+
+@media (max-width: 425px) {
+    .certificacao__line{
+        flex-direction: column;
+        width: 360px;
+        height: auto;
+    }
+    
+    .certificacao__item__img{
+        width: 296px;
+        height: auto; 
+    }
+    
+    .certificacao__item__img img{
+        width: 85px;
+    }
+    .text{
+        width: 296px;
+    }
+}

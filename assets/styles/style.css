@@ -1,0 +1,218 @@
+/*CSS Reset / Normalize*/
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+:root{
+    /*Insira a variavel das outras cores inspecionando o modelo do figma*/
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #fff;
+   --cor__transparente:#F3E7FAcc;;
+   --cor__clara:#F3E7FA;
+   --cor__media_1: #d3aede;
+   --cor__media_2: #a783b2;
+   --cor__escura: #563560 ;
+}
+
+body {
+    width: 100vw;
+    background-color: var(--cor__clara);
+    background-position: top;
+    background-image: url("../img/bg.png");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Raleway';
+    color: var(--cor__escura);
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+ol, ul,li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: var(--cor__escura);
+}
+
+/*Neste desafio, gostariamos que praticassem a metodologia BEM, caso seintam a vontade 
+de utiliza-la. 
+
+Mas o que é o BEM?
+
+BEM (Block, Element, Modifier) ​​é uma abordagem baseada em componentes para o desenvolvimento
+web. A ideia por trás disso é dividir a interface do usuário em blocos independentes.
+Isso torna o desenvolvimento de interface fácil e rápido, mesmo com uma interface
+de usuário complexa, e permite a reutilização de código existente sem copiar e colar.
+
+Link da documentação oficial!
+https://en.bem.info/methodology/quick-start/*/
+
+.all {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+h1{    
+    font-size: 3.25rem;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+h3{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario__campo{
+    border: none;
+}
+
+.title__div, .skill__hobbie__box, .experience, .academic {
+    align-items: center;
+    border-radius: 1px;
+    border-radius: 1rem;
+    padding: 1rem;
+    align-items: center;
+    gap:1rem;
+    background-color: var(--cor__transparente);
+}
+.msg__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg__box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.formcontato__input::placeholder{
+    font-size: 18px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    color: var(--cor__media_2);
+}
+
+.msg__box img{
+    width: 60px;
+    margin-bottom: 1.5rem;
+
+}
+
+/*footeer*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-de-fundo);  
+}
+
+.footer__rodape{
+    Width: 100vw;
+    height: 102px;
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer__rodape p{
+    padding-bottom: 0rem;
+    margin: 0;
+}
+
+/* Chegou a hora de se desafiar com a responsividade, 
+utilize como referência os breakpoints @media abaixo*/
+
+/*Tablet*/
+@media (max-width: 768px) {
+    body {
+        box-sizing: border-box;
+        background-image: none;
+    }
+
+    h1{
+    font-size: 22px;
+    height: 700;
+    }
+
+    h2{
+    font-size: 1rem;
+    height: 400;
+    }
+
+    p{
+        font-size: 1rem;
+        height: 500;
+        gap: 0;
+    }
+
+/* Menu */
+    
+  
+
+/*title*/
+
+
+
+/*Skills e Hobbies*/
+
+
+/*Experiências acadêmicas*/
+
+/*Expeirência profissional*/
+
+
+/*contato form*/
+
+
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+/*Menu*/
+/*Titulo*/
+/*Sessão sobre*/
+/*Skills e hobbies*/
+/*Formação Acadêmica*/
+/*Experiência Profissional*/
+ /*Contato*/
+/*Footer*/
+.footer{
+    height: 102px;
+    gap:0;
+    padding-top: 1rem;
+    margin: 0;
+}
+
+}

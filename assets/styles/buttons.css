@@ -1,0 +1,62 @@
+.experiencia__botao--repo, .formcontato__botao{
+    align-items: center;
+    width: 165px;
+    height:51px;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+    color: var(--cor__escura);
+    border: var(--cor__media_2) 0.2rem solid;
+    background-color: transparent;
+    border-radius: 1rem;
+}
+
+@media (max-width: 425px){
+    .experiencia__botao--repo{
+        width: 120px;
+    }
+
+}
+
+.experiencia__botao--repo:hover, .formcontato__botao:hover{
+    border: 0.2rem solid var(--cor__escura);
+    font-weight: 600;
+}
+
+.experiencia__botao--demo{
+    justify-content: center;
+    width: 165px;
+    height:51px;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+    background: var(--cor__media_1); 
+    border:0.2rem solid var(--cor__media_2);
+    color: var(--cor__escura);
+    border-radius: 1rem;
+    gap: 2rem;
+}
+@media (max-width: 425px){
+    .experiencia__botao--demo{
+        width: 120px;
+    }
+
+}
+
+.experiencia__botao--demo:hover {
+    border: 0.2rem solid var(--cor__escura);
+    font-weight: 600;
+}
+
+.formcontato__botao{
+    background-color: var(--cor__clara);    
+    border: var(--cor__media_2) 0.2rem solid;
+}
+
+.formcontato__botao:hover{
+    border: var(--cor__escura) 0.2rem solid;
+}
+
+
+
+
