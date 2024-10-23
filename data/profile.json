@@ -1,0 +1,413 @@
+{
+  "name": "Luane Loureiro",
+  "photo": "https://avatars.githubusercontent.com/u/100947092?v=4",
+  "job": "Front-End Developer JR",
+  "location": "Rio de Janeiro / RJ",
+  "phone": "(21) 99473-6215",
+  "email": "luachan@gmail.com",
+
+  "sobre": "Sou vidrada em comunicação visual e tecnologia, estudei na escola de belas artes da UFRJ e Desenho industrial na universidade Estácio de Sá, com bolsa integral.  Atualmente tenho minha própria empresa com marca registrada no INPI, onde eu sou responsavel pelo site e toda a parte de Design.  Depois de anos a frente da minha empresa, busco novos desafios na área de Design, Games e tecnologia.  Nos tempos livres gosto de ler, jogar video game, desenhar e Faço aulas de Balé.",
+
+  "social": [
+        {
+          "link":"https://www.linkedin.com/in/luane-loureiro",
+          "name":"Linkedin"
+        },
+        {
+          "link":"https://github.com/luane-loureiro",
+          "name": "GitHub"
+        },
+        {
+          "link":"https://www.canva.com/design/DAE6kwWPsx4/jNzlHu44jk31o-x8-CdXjg/view?utm_content=DAE6kwWPsx4&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+          "name":"Portfólio"
+        },
+        {
+          "link":"https://www.canva.com/design/DAFw_gifCuM/-FiI2oz3oOVggI6xir0YDA/view?utm_content=DAFw_gifCuM&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+          "name":"Currículo"
+        }
+      ],
+  "certificacao": [
+        {
+          "link":"https://www.credly.com/badges/0d9a3786-cd96-449f-981e-8bedcddeab62",
+          "name":"AWS - cloud practitioner",
+          "image":"https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
+        },
+
+        {
+          "link":"https://www.credly.com/badges/a98f95c4-aa0f-4d9c-a490-4ddfe4529f8a",
+          "name":"AWS - Educate Introduction to Cloud 101",
+          "image":"https://images.credly.com/size/340x340/images/8d67bbf4-128b-4141-b5f1-1bc61bbfbaa6/image.png"
+        },
+
+        {
+          "link":"https://www.credly.com/badges/806205e6-f6af-451d-98a5-78816c1b2f07",
+          "name":"AWS re/Start Graduate",
+          "image":"https://images.credly.com/size/340x340/images/44e2c252-5d19-4574-9646-005f7225bf53/image.png"
+        }
+      ],
+
+  "skills": {
+        "hardSkills": [
+      {
+        "name": "HTML5",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_html5.svg"
+      },
+      {
+        "name": "CSS3",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_css3.svg"
+      },
+      {
+        "name": "Java Script",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_js.svg"
+      },
+      {
+        "name": "Type Script",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_ts.svg"
+      },
+      {
+        "name": "Node JS",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_nodejs.svg"
+      },
+      {
+        "name": "Angular",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_angular_2.svg"
+      },
+      {
+        "name": "React",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_react_2.svg"
+      },
+      {
+        "name": "AWS",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_aws.svg"
+      },
+      {
+        "name": "Python",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_python.svg"
+      }, 
+      {
+        "name": "Figma",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_figma.svg"
+      },       
+      {
+        "name": "Adobe Photo Shop",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_ps.svg"
+      },
+      {
+        "name": "Adobe Illustrator",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_illustrator.svg"
+      },
+      {
+        "name": "Corel Draw",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/coreldraw.svg"
+      },
+      {
+        "name": "Pro-Create",
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/procreate_2.svg"
+      }
+
+    ],
+    "softSkills": [
+      {
+        "name":"Resolução de Problemas",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_problemsolve.svg"
+      },
+      {
+        "name":"Criatividade",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_criatividade.svg"
+      },
+      {
+        "name":"Foco",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_foco.svg"
+      },
+      {
+        "name":"Responsabilidade",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_responsabilidade.svg"
+      },
+      {
+        "name":"Pontualidade",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_pontualidade.svg"
+      },
+      {
+        "name":"Aprendizagem Continua",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_Vontadedeaprender.svg"
+      },
+      {
+        "name":"Organização",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_organizacao.svg"
+      },
+      {
+        "name":"Moral e Ética Profissional",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_moraleetica.svg"
+      },
+      {
+        "name":"Perceverença",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_perceveranca.svg"
+      }
+
+      
+    ],
+
+    "hobbies": [
+      {
+        "name":"Ler",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_books.svg"
+      },
+      {
+        "name":"dançar",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_dance.svg"
+      },
+      {
+        "name":"Ouvir Boa Música",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_music.svg"
+      },
+      {
+        "name":"Assistir Séries e Filmes",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_tv.svg"
+      },
+      {
+        "name":"Pintura",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_paint.svg"
+      },
+      {
+        "name":"Games",
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_games.svg"
+      }
+    ]
+  },
+
+  "formacao": [
+    { 
+      "name":"Universidade Federal Do Rio de Janeiro",
+      "curso":"Artes Plásticas - Pintura (8 Semestres)",
+      "descricao": "2004 - 2009 (trancado) - EBA - UFRJ",
+      "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/ufrj.png"
+    },
+    {
+      "name":"Universidade Estácio de Sá",
+      "curso":"Desenho Industrial (7 semestres)",
+      "descricao": "2009 - 2012 (trancado) - UESa",
+      "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/estacio.png"
+    },
+    {
+      "name":"California Institute of the Arts",
+      "curso":"Game Design: Art and Concepts Specialization",
+      "descricao": "Em andamento - CALARTS",
+      "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/calarts.png"
+    },
+    {
+      "name":"Escola da Nuvem",
+      "curso":"Fundamentos em Tecnologia e Computação na Nuvem",
+      "descricao": "2024 - AWS - Re:Start",
+      "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/escoladanuvem.png"
+    },
+    {
+      "name":"Escola da Nuvem",
+      "curso":"Extensão - Solutions Architect ‒ Associate",
+      "descricao": "Em Andamento - AWS - Solutions Architect ‒ Associate",
+      "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/escoladanuvem.png"
+    },
+    {
+      "name":"Skill Builder AWS",
+      "curso":"Elementos essenciais do AWS Cloud Practitioner (22 Horas)",
+      "descricao": "2023 - Skill Builder AWS",
+      "logo":"https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+    },
+    {
+      "name":"Cursos Progra{M}aria",
+      "curso":"Front-End | Meu primeiro site responsivo (17 Horas)",
+      "descricao": "2024 - Eu Progr{Amo}",
+      "logo":"https://import.cdn.thinkific.com/cdn-cgi/image/width=384,dpr=1,onerror=redirect/584413%2Fcustom_site_themes%2Fid%2FyoJJsuyoTQO9BoMA8vsL__Programaria_horizontal_fundobranco-72DPI.png"
+    },
+    {
+      "name":"Cursos Progra{M}aria",
+      "curso":"Análise de Dados | Meu primeiro dashboard (15 Horas)",
+      "descricao": "Em Andamento - Eu Progr{Amo}",
+      "logo":"https://import.cdn.thinkific.com/cdn-cgi/image/width=384,dpr=1,onerror=redirect/584413%2Fcustom_site_themes%2Fid%2FyoJJsuyoTQO9BoMA8vsL__Programaria_horizontal_fundobranco-72DPI.png"
+    },
+    {
+      "name":"Cursos Progra{M}aria",
+      "curso":"Back-End | Minha Primeira API (7 Horas)",
+      "descricao": "Em Andamento - Eu Progr{Amo}",
+      "logo":"https://import.cdn.thinkific.com/cdn-cgi/image/width=384,dpr=1,onerror=redirect/584413%2Fcustom_site_themes%2Fid%2FyoJJsuyoTQO9BoMA8vsL__Programaria_horizontal_fundobranco-72DPI.png"
+    },
+    {
+      "name":"Digital Inovação One",
+      "curso":"Formação HTML Web Developer (21 Horas)",
+      "descricao": "2024 - DIO",
+      "logo":"https://hermes.dio.me/tracks/62ed1f1d-8d76-4bbc-905f-e73d20cb82f5.png"
+    },
+    {
+      "name":"Digital Inovação One",
+      "curso":"Formação Java Script (39 Horas)",
+      "descricao": "2024 - DIO",
+      "logo":"https://hermes.dio.me/tracks/55e7040f-775b-47e5-a8fb-69d002ca17a9.png"
+    },
+    {
+      "name":"Ifood - Digital Inovação One",
+      "curso":"Potência Tech iFood - Desenvolvimento de Jogos (77 Horas)",
+      "descricao": "2024 - DIO",
+      "logo":"https://hermes.dio.me/tracks/83f8150a-6429-4c1a-9207-d5bff610f647.png"
+    },
+    {
+      "name":"Digital Inovação One",
+      "curso":"Fundamentos de Computação em Nuvem na AWS (12 Horas)",
+      "descricao": "2023 - DIO",
+      "logo":"https://hermes.dio.me/tracks/eac28003-aab4-4427-9e80-d750b44894c7.png"
+    }, 
+    {
+      "name":"Digital Inovação One",
+      "curso":"Fundamentos de Front-End (25 Horas)",
+      "descricao": "2024 - DIO",
+      "logo":"https://hermes.dio.me/tracks/2b3eb506-d986-4a63-b353-c086684ff557.png"
+    }, 
+    {
+      "name":"Alura e Oracle",
+      "curso":"T6 One - Iniciante em Programação (54 horas)",
+      "descricao": "2024 - Alura/Oracle",
+      "logo":"https://compliancesolucoes.com.br/wp-content/uploads/2022/11/ONE_logo_rgb.png"
+    },
+    {
+      "name":"Alura e Oracle",
+      "curso":"T6 One - Desenvolvimento Pessoal (38 horas)",
+      "descricao": "2024 - Alura/Oracle",
+      "logo":"https://compliancesolucoes.com.br/wp-content/uploads/2022/11/ONE_logo_rgb.png"
+    },
+    {
+      "name":"Alura e Oracle",
+      "curso":"T6 One - Especialização Front-End (82 horas)",
+      "descricao": "Maio/2024 - Alura/Oracle",
+      "logo":"https://compliancesolucoes.com.br/wp-content/uploads/2022/11/ONE_logo_rgb.png"
+    },
+    {
+      "name":"Alura e Oracle",
+      "curso":"T6 One - Empreendedorismo, Agilidade e Protagonismo na Carreira (54 hoas)",
+      "descricao": "julho 2024 - Alura/Oracle",
+      "logo":"https://compliancesolucoes.com.br/wp-content/uploads/2022/11/ONE_logo_rgb.png"
+    },
+    {
+      "name":"Alura e Oracle",
+      "curso":"T6 One - React (81 hoas)",
+      "descricao": "julho 2024 - Alura/Oracle",
+      "logo":"https://compliancesolucoes.com.br/wp-content/uploads/2022/11/ONE_logo_rgb.png"
+    }
+  ],
+
+
+  "languages": [
+    "Português BR (Nativo)",
+    "Inglês (intermediário)",
+    "Japonês (Básico)"
+  ],
+
+
+  "portfolio": [
+    { 
+      "name":"Projeto Pokedex",
+      "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/pokedex.png", 
+      "descricao": "Projeto Final do Curso de Java Script, Ministrado na DIO",
+      "git_url": "https://github.com/luane-loureiro/js-developer-pokedex",
+      "vercel_url":"https://js-developer-pokedex-lime.vercel.app",
+      "github": true
+    },
+    {
+      "name":"Projeto Detona Ralph Game",
+      "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/detona.jpg", 
+      "descricao": "Projeto da DIO para a criação de uma Jogo de Click Inspirado em Detonha Ralph",
+      "git_url": "https://github.com/luane-loureiro/Detona-Ralph-Game-V0.1",
+      "vercel_url":"https://detona-ralph-game-v0-1.vercel.app",
+      "github": true
+    },
+    {
+      "name":"Virtual Piano Project",
+      "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/piano.jpg", 
+      "descricao": "Projeto da DIO para a criação de uma Piano Virtual",
+      "git_url": "https://github.com/luane-loureiro/Piano-virtual",
+      "vercel_url":"https://piano-virtual-nine.vercel.app",
+      "github": true
+    },
+    {
+      "name":"Peojeto Jogo da memoria Emoji",
+      "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/memoria-emoji.PNG", 
+      "descricao": "Projeto da DIO para a criação de uma Jogo da Memória",
+      "git_url": "https://github.com/luane-loureiro/Jogo-da-memoria-emoji",
+      "vercel_url":"https://jogo-da-memoria-emoji.vercel.app",
+      "github": true
+    },
+    {
+      "name":"YougiOh Game Project",
+      "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/yugioh.jpg", 
+      "descricao": "Projeto da DIO para a criação de uma Jogo de Jokenpo inspirado em Yugioh ",
+      "git_url": "https://github.com/luane-loureiro/jogo-yugioh",
+      "vercel_url":"https://jogo-yugioh.vercel.app",
+      "github": true
+    },
+    {
+      "name":"Jogo do número Secreto",
+      "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/numero_secreto.PNG", 
+      "descricao": "Projeto da Alura para a criação de uma Jogo de adivinhação ",
+      "git_url": "https://github.com/luane-loureiro/Jogo_do_numero_secreto_2.0",
+      "vercel_url":"https://https://numero-secreto-deploy-o3nf59ubl-luane-loureiros-projects.vercel.app/",
+      "github": true
+    },
+
+    {
+      "name":"Alura Fokus",
+      "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/alura-fokus.PNG", 
+      "descricao": "Aplicaivo web inspirado no metodo pomodoro, para focar em uma atividade.  Projeto feito durante o boot camp de Front End T6 - ONE O objetivo do projeto é praticar a manipulação de DOM.",
+      "git_url": "https://github.com/luane-loureiro/Fokus",
+      "vercel_url":"https://fokus-teal-ten.vercel.app",
+      "github": true
+    },
+    {
+      "name":"Alura Mid",
+      "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/alura-mid.PNG", 
+      "descricao": "Projeto para criar uma bateria digital.  Projeto feito durante o boot camp de Front End T6 - ONE O objetivo do projeto é praticar a manipulação de DOM.",
+      "git_url": "https://github.com/luane-loureiro/Projeto-Alura-Mid",
+      "vercel_url":"https://projeto-alura-mid-five.vercel.app",
+      "github": true
+    },
+    {
+      "name":"space APP",
+      "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/spaceApp.png", 
+      "descricao": "Projeto para criar uma site de imagens do espaço.  Projeto feito durante o boot camp de especialização React T6 - ONE O objetivo do projeto é praticar a estutura de componentes react com vite.",
+      "git_url": "https://github.com/luane-loureiro/space-app",
+      "vercel_url":"https://space-app-jet.vercel.app/",
+      "github": true
+    },
+    {
+      "name":"Blog Olá Mundo",
+      "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/blogOlaMundo.png", 
+      "descricao": "Projeto para criar um Blog.  Projeto feito durante o boot de especoalização React T6 - ONE O objetivo do projeto é praticar a estutura de componentes react router dom.",
+      "git_url": "https://github.com/luane-loureiro/Alura--ola-mundo",
+      "vercel_url":"https://alura-ola-mundo-sandy.vercel.app/",
+      "github": true
+    }
+
+
+  ],
+
+
+  "professionalExperience": [
+    {
+      "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/logo_nerdShop.png",
+      "name": "Design - Nerd Shop",
+      "period": "2012 - Atualidade",
+      "description": [
+        "- CEO",
+        "- Criação da marca e toda a identidade visual",
+        "- Desenvolvimento de imagens e embalagens para produtos exclusicos",
+        "- Desenvolvimento da loja virtual"
+      ]
+    },
+    {
+      "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/ufrj.png",
+      "name": "Restauradora - FAU/UFRJ",
+      "period": "2008 - 2009",
+      "description":[
+        "- Bolsa de Iniciação Científica",
+        "- Restauração do arcevo de Projetos de aquitetura de históricos da FAU", 
+        "- Restauração e concervação de Papel"
+      ]
+    }
+  ]
+}
